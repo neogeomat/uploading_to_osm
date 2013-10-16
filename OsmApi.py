@@ -423,6 +423,9 @@ class OsmApi:
             data += self._XmlBuild(change["type"], change["data"], False).decode("utf-8")
             data += u"</"+change["action"]+">\n"
         data += u"</osmChange>"
+    # mychanges 
+        print 'osc',data
+    # 
         data = self._http("POST", "/api/0.6/changeset/"+str(self._CurrentChangesetId)+"/upload", True, data.encode("utf-8"))
         data = xml.dom.minidom.parseString(data)
         data = data.getElementsByTagName("diffResult")[0]
