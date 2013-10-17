@@ -4,6 +4,8 @@ from pprint import pprint
 import json
 import urllib2
 import OsmApi
+from mylib import convert
+import random
 
 print 'python version=',sys.version
 con = None
@@ -18,20 +20,10 @@ with con:
     # for row in rows:
     # 	print row
 
-def convert(input): #this converts unicode object to string object in the decoded json file
-    if isinstance(input, dict):
-        return dict([(convert(key), convert(value)) for key, value in input.iteritems()])
-    elif isinstance(input, list):
-        return [convert(element) for element in input]
-    elif isinstance(input, unicode):
-        return input.encode('utf-8')
-    else:
-        return input
-
 ## Getting data from internet
 # formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new/api')
 # formhub_response = urllib2.urlopen(formhub_request)
-formhub_response = open('data_from_formhub.json')
+formhub_response = open('data_from_formhub_10.json')
 json_data = json.loads(formhub_response.read())
 if(json_data):
 	print "got response"
@@ -43,16 +35,32 @@ print type(json_data)
 
 ##OSMapi
 MainApi = OsmApi.OsmApi()
-DevApi = OsmApi.OsmApi(api='api06.dev.openstreetmap.org', passwordfile = 'devpassword', changesetauto=True, debug=True)
+DevApi = OsmApi.OsmApi(api='api06.dev.openstreetmap.org', passwordfile = 'devpassword',debug=True)
 # dev_capabiliies = DevApi.Capabilities()
 # print dev_capabiliies
 
 # old_data = convert(MainApi.WayFull(json_data[1]['building_id']))
 # print 'old_data full'
-old_data = convert(MainApi.WayGet(json_data[1]['building_id']))
-pprint(old_data)
-print 'old_data'
-# pprint(MainApi.WayGet(json_data[1]['building_id']))
+
+##data entry
+DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
+i=0
+for entry in json_data:
+    # pprint(entry)
+    print i
+    i+=1
+    if(len(entry['building_id'])==9):
+        old_data = convert(MainApi.WayGet(entry['building_id']))
+        new_data = {'tag':old_data['tag'],'lat':(27.7+random.random()*0.01),'lon':(85.3+random.random()*0.01)} #preserving old data
+
+        if(entry["building_overhang"]=="building_overhang_false"):
+            new_data['tag']['building:overhang'] = 'no'
+        elif(entry["building_overhang"]=="building_overhang_true"):
+            new_data['tag']['building:overhang'] = 'yes'
+        print DevApi.NodeCreate(new_data)
+DevApi.ChangesetClose()
+
+
 
 
 
