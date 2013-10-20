@@ -45,19 +45,34 @@ DevApi = OsmApi.OsmApi(api='api06.dev.openstreetmap.org', passwordfile = 'devpas
 ##data entry
 DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
 i=0
-for entry in json_data:
-    # pprint(entry)
+for building in json_data:
+    # pprint(building)
     print i
     i+=1
-    if(len(entry['building_id'])==9):
-        old_data = convert(MainApi.WayGet(entry['building_id']))
+    osm_id = None
+    ##if building exists query database and find out its id
+    if(building['new_building']=="new_building_true"):  #
+        building_id = building['building_id']
+        if(len(building['building_id'])==9):    #if real osmid is used
+            osm_id = building_id
+        elif(len(building['building_id'])<=4):  #for pseudonumber connect to db asd find number
+            with con:
+                cur = con.cursor()    
+                cur.execute('SELECT osmid from psuedonumber where district=\"',building['district'],'\" AND vdc=\"',building['vdc'],'\" AND ward=\"',building['ward'],'\" AND new_id=\"',building_id,'\"')
+                osmid = cur.fetchone()
+        else:
+            print ""
+    #after id is determined
+    if(osm_id):
+        osm_id   = building['building_id'])
+        old_data = convert(MainApi.WayGet(osm_id)
         new_data = {'tag':old_data['tag'],'lat':(27.7+random.random()*0.01),'lon':(85.3+random.random()*0.01)} #preserving old data
-
-        if(entry["building_overhang"]=="building_overhang_false"):
+        if(building["building_overhang"]=="building_overhang_false"):
             new_data['tag']['building:overhang'] = 'no'
-        elif(entry["building_overhang"]=="building_overhang_true"):
+        elif(building["building_overhang"]=="building_overhang_true"):
             new_data['tag']['building:overhang'] = 'yes'
         print DevApi.NodeCreate(new_data)
+    #
 DevApi.ChangesetClose()
 
 
