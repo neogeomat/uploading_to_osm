@@ -4,12 +4,18 @@ from pprint import pprint
 import json
 import urllib, urllib2
 import OsmApi
-from mylib import convert
+from mylib import *
 import random
 import datetime
 
 print 'python version=',sys.version
-overpass_api = "http://overpass-api.de/api/interpreter?data="
+
+## declaring global variables
+building_count = 0
+surveyors_error = {}
+new_building_not_found = 0
+new_building = 0
+overpass_api   = "http://overpass-api.de/api/interpreter?data="
 con = None
 con = lite.connect('../building_id/dev_db.db')
 # with con:
@@ -23,14 +29,18 @@ con = lite.connect('../building_id/dev_db.db')
     # 	print row
 
 ## Getting data from internet
-# formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new/api')
-# formhub_response = urllib2.urlopen(formhub_request)
-formhub_response = open('data_from_formhub_oct_7_part.json')
+print("Getting data from internet")
+# formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new_oct_7/api')
+# try:
+#     formhub_response = urllib2.urlopen(formhub_request)
+#     print "successful"
+# except urllib2.URLError:
+#     print('We failed to reach a server.')
+#     print('Reason: ', e.reason)
+formhub_response = open('data_from_formhub_oct_7.json')
+
+print "loading data"
 json_data = json.loads(formhub_response.read())
-if(json_data):
-	print "got response"
-else:
-	print "no response"
 json_data = convert(json_data)
 # pprint(json_data)
 # print type(json_data)
@@ -43,26 +53,45 @@ DevApi = OsmApi.OsmApi(api='api06.dev.openstreetmap.org', passwordfile = 'devpas
 
 ##data entry
 # DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
-i=0
+
 for building in json_data:
     # pprint(building)
-    print "counter",i
-    i+=1
+    print "\n building_count",building_count
+    building_count+=1
     osm_id = None
 
     # if building exists query database and find out its id
     if(building['new_building']=="new_building_true"):  #
+        ##for debug
+        print(building['_uuid'])
+        #
+
         building_id = building['building_id']   # get id in form
         
-        if(len(building['building_id'])==9):    #if real osmid is used
+        #if real osmid is used
+        if(len(building['building_id'])==9):    
             osm_id = building_id
             print "osm_id",osm_id
 
-        elif(len(building['building_id'])<=4):  #for pseudonumber connect to db and find number
-            with con:
+        #for pseudonumber connect to db and find number
+        elif(len(building['building_id'])<=4):
+            #need a function to convert formhub entries to database entries
+            district = formhub_to_database(building.get('district'))
+            vdc      = formhub_to_database(building.get('vdc'))
+            ward     = formhub_to_database(building.get('ward_no'))
+            try:
                 cur = con.cursor()    
-                cur.execute('SELECT osmid from psuedonumber where district=\"',building['district'],'\" AND vdc=\"',building['vdc'],'\" AND ward=\"',building['ward'],'\" AND new_id=\"',building_id,'\"')
+                sql_get_osm_id = "SELECT osmid from psuedonumber where district=\"",district,"\" AND vdc=\"",vdc,"\" AND ward=\"",ward,"\" AND new_id=\"",building_id,"\""
+                print str(sql_get_osm_id)
+                cur.execute(str(sql_get_osm_id))
                 osmid = cur.fetchone()
+            except Exception, e:
+                surveyors_error += 1
+                print "surveyors error"
+                print e
+                surveyor_id = building['surveyor_id']
+                surveyors_error.setdefault(surveyor_id,0)
+                surveyors_error[surveyor_id] += 1
         else:
             pass
 
@@ -73,17 +102,38 @@ for building in json_data:
             building_id = [building['area_id'], building['building_id']]
         else:
             building_id = [building['surveyor_id'],building['survey_date'][5:7],building['survey_date'][8:10],building['building_id']]
+        
+        # preparing overpass query
         overpass_tag     = {"kll:oid":"-".join(building_id)}
-        overpass_query   = "[out:json];way[\"kll:oid\"="+"\""+overpass_tag['kll:oid']+"\"];"+"out meta;\n"
+        overpass_query   = "[out:json];way[\"kll:oid\"="+"\""+overpass_tag['kll:oid']+"\"];"+"out ids;"
         print "overpass_query",overpass_query
 
         # correct request is like this: http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224%2D10%2D07%2D21%22%5D%3B%0A
         overpass_request = overpass_api + urllib.quote(overpass_query)
         print "overpass_request",overpass_request
         try:
-            myUrlHandle = urllib2.urlopen(overpass_request, timeout=60)
+            overpass_response = json.loads(convert(urllib2.urlopen(overpass_request, timeout=60).read()))
+            elements = overpass_response['elements']
+            new_building += 1
+            if(len(elements)):
+                element  = elements[0]
+                osm_id   = element['id']
+                print "osm_id",osm_id
+            else:
+                new_building_not_found += 1
+                print overpass_tag,"Not found"
+        #for debug
+                # raw_input("Press any Key")
+        #
+        except urllib.error.HTTPError as e:
+            print('The server couldn\'t fulfill the request.')
+            print('Error code: ', e.code)
+            if(e.code == 429):
+                print "\n  Too Many Requests"
+                raw_input("abort")
         except urllib2.URLError:
-            raise
+            print('We failed to reach a server.')
+            print('Reason: ', e.reason)
 
 
     #after id is determined
@@ -203,3 +253,8 @@ for building in json_data:
     #     print DevApi.NodeCreate(new_data)
     # #
 # DevApi.ChangesetClose()
+
+print "No of buildings",building_count
+print "surveyors_error",surveyors_error
+print "new_building",new_building
+print "new_building_not_found",new_building_not_found

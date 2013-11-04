@@ -7,3 +7,6 @@ def convert(input): #this converts unicode object to string object in the decode
         return input.encode('utf-8')
     else:
         return input
+
+def formhub_to_database(str):
+	return str
