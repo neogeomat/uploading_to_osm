@@ -8,5 +8,15 @@ def convert(input): #this converts unicode object to string object in the decode
     else:
         return input
 
-def formhub_to_database(str):
+def formhub_to_database_district(str):
+	if(str == 'district_kathmandu'):
+		str = 'KATHMANDU'
+	return str
+
+def formhub_to_database_vdc(str):
+	if(str == 'vdc_kmc'):
+		str = 'KMC'
+	return str
+
+def formhub_to_database_ward(str):
 	return str

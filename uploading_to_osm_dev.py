@@ -18,26 +18,27 @@ new_building = 0
 overpass_api   = "http://overpass-api.de/api/interpreter?data="
 con = None
 con = lite.connect('../building_id/dev_db.db')
+main_db = lite.connect('../building_id/main_pseudonumber_db - Copy.db')
 # with con:
 #     print con
     
-#     cur = con.cursor()    
-    # cur.execute('SELECT * from psuedonumber')
-    # rows = cur.fetchall()
+#     main_cur = con.cursor()    
+    # main_cur.execute('SELECT * from psuedonumber')
+    # rows = main_cur.fetchall()
 
     # for row in rows:
     # 	print row
 
 ## Getting data from internet
 print("Getting data from internet")
-# formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new_oct_7/api')
+# formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new/api')
 # try:
 #     formhub_response = urllib2.urlopen(formhub_request)
 #     print "successful"
 # except urllib2.URLError:
 #     print('We failed to reach a server.')
 #     print('Reason: ', e.reason)
-formhub_response = open('data_from_formhub_oct_7.json')
+formhub_response = open('data_from_formhub_oct_29.json')
 
 print "loading data"
 json_data = json.loads(formhub_response.read())
@@ -59,13 +60,13 @@ for building in json_data:
     print "\n building_count",building_count
     building_count+=1
     osm_id = None
+    ##for debug
+    print(building['_uuid'])
+    #
 
     # if building exists query database and find out its id
     if(building['new_building']=="new_building_true"):  #
-        ##for debug
-        print(building['_uuid'])
-        #
-
+        
         building_id = building['building_id']   # get id in form
         
         #if real osmid is used
@@ -76,22 +77,26 @@ for building in json_data:
         #for pseudonumber connect to db and find number
         elif(len(building['building_id'])<=4):
             #need a function to convert formhub entries to database entries
-            district = formhub_to_database(building.get('district'))
-            vdc      = formhub_to_database(building.get('vdc'))
-            ward     = formhub_to_database(building.get('ward_no'))
+            district = formhub_to_database_district(building.get('district'))
+            vdc      = formhub_to_database_vdc(building.get('vdc'))
+            ward     = formhub_to_database_ward(building.get('ward_no'))
             try:
-                cur = con.cursor()    
-                sql_get_osm_id = "SELECT osmid from psuedonumber where district=\"",district,"\" AND vdc=\"",vdc,"\" AND ward=\"",ward,"\" AND new_id=\"",building_id,"\""
-                print str(sql_get_osm_id)
-                cur.execute(str(sql_get_osm_id))
-                osmid = cur.fetchone()
+                main_cur = main_db.cursor()   
+                db_params = district,vdc,ward,building_id
+                main_cur.execute("SELECT osmid from psuedonumber where district=? AND vdc=? AND ward=? AND new_id=?",db_params)
+                db_response = convert(main_cur.fetchall())
+                osm_id = db_response[0][0]
+                print osm_id
             except Exception, e:
-                surveyors_error += 1
                 print "surveyors error"
                 print e
                 surveyor_id = building['surveyor_id']
                 surveyors_error.setdefault(surveyor_id,0)
                 surveyors_error[surveyor_id] += 1
+
+                # debug
+                # raw_input()
+                #
         else:
             pass
 
@@ -122,22 +127,26 @@ for building in json_data:
             else:
                 new_building_not_found += 1
                 print overpass_tag,"Not found"
+                surveyor_id = building['surveyor_id']
+                surveyors_error.setdefault(surveyor_id,0)
+                surveyors_error[surveyor_id] += 1
         #for debug
                 # raw_input("Press any Key")
         #
-        except urllib.error.HTTPError as e:
+        except urllib2.HTTPError as e:
             print('The server couldn\'t fulfill the request.')
             print('Error code: ', e.code)
             if(e.code == 429):
                 print "\n  Too Many Requests"
                 raw_input("abort")
-        except urllib2.URLError:
+        except urllib2.URLError as e:
             print('We failed to reach a server.')
             print('Reason: ', e.reason)
 
 
     #after id is determined
     # if(osm_id):
+    #     print "retrieving data from main osm for way",osm_id
     #     old_data = convert(MainApi.WayFull(osm_id)
 
     #     if(not old_data['data']['tag']['building:structure']):
