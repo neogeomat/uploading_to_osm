@@ -29,7 +29,7 @@ try:
 except urllib2.URLError as e:
     print('We failed to reach a server.')
     print('Reason: ', e)
-# formhub_response = open('data_from_formhub_oct_7_part_overpass.json')
+# formhub_response = open('data_from_formhub_oct_7_part.json')
 
 print "loading data"
 json_data = json.loads(formhub_response.read())
@@ -168,12 +168,18 @@ for building in json_data:
 
             # only in dev version
             
-            #building ownership
-            if(building["building_own"] == "building_own_rent"):
-                new_data['tag']['building:ownership'] = "rent"
-            else:
-                new_data['tag']['building:ownership'] = "self"
+            # building house number
+            if(building.get('house_number')):
+                new_data['tag']['addr:housenumber'] = building.get('house_number')
 
+            # building institutional
+            if(building.get('building_insti') == "building_insti_true"):
+                #building ownership
+                if(building["building_own"] == "building_own_rent"):
+                    new_data['tag']['building:ownership'] = "rent"
+                else:
+                    new_data['tag']['building:ownership'] = "self"
+            
             # building structural system
             if(building["building_struct"] == "building_struct_erc"):
                 new_data['tag']["building:structure"] = "engineered_reinforced_concrete"
@@ -193,27 +199,29 @@ for building in json_data:
                 new_data['tag']["building:structure"] = "load_bearing_stone_wall_in_mud_mortar"
             elif(building["building_struct"] == "building_struct_ad"):
                 new_data['tag']["building:structure"] = "adobe"
+            else:
+                new_data['tag']["building:structure"] = building["building_struct"]
 
             # no of stories
             if(building["building_stories"]):
                 new_data['tag']['building:levels'] = building["building_stories"]
 
             # building use
-            if(building["building_use"] == "building_use_res"):
+            if(building.get("building_use") == "building_use_res"):
                 new_data['tag']['building:use'] = 'residential'
-            elif(building["building_use"] == "building_use_edu"):
+            elif(building.get("building_use") == "building_use_edu"):
                 new_data['tag']['building:use'] = 'education'
-            elif(building["building_use"] == "building_use_hel"):
+            elif(building.get("building_use") == "building_use_hel"):
                 new_data['tag']['building:use'] = 'health'
-            elif(building["building_use"] == "building_use_com"):
+            elif(building.get("building_use") == "building_use_com"):
                 new_data['tag']['building:use'] = 'commercial'
-            elif(building["building_use"] == "building_use_res"):
+            elif(building.get("building_use") == "building_use_res"):
                 new_data['tag']['building:use'] = 'residential'
 
             # floor material type
-            if(building["building_flt"] == "building_flt_rig"):
+            if(building.get("building_flt") == "building_flt_rig"):
                 new_data['tag']['floor:material:type'] = 'rigid'
-            elif(building["building_flt"] == "building_flt_fle"):
+            elif(building.get("building_flt") == "building_flt_fle"):
                 new_data['tag']['floor:material:type'] = 'flexible'
 
             # roof material type
@@ -265,9 +273,9 @@ for building in json_data:
                 new_data['tag']['building:soft_storey'] = 'yes'
 
             # building gable wall
-            if(building["building_gable"]=="building_gable_false"):
+            if(building.get("building_gable")=="building_gable_false"):
                 new_data['tag']['building:gable_wall'] = 'no'
-            elif(building["building_gable"]=="building_gable_true"):
+            elif(building.get("building_gable")=="building_gable_true"):
                 new_data['tag']['building:gable_wall'] = 'yes'
 
         else:
