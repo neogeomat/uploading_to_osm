@@ -22,14 +22,14 @@ main_db = lite.connect('../building_id/main_pseudonumber_db - Copy.db')
 
 ## Getting data from internet
 print("Getting data from internet")
-formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new_oct_27/api')
-try:
-    formhub_response = urllib2.urlopen(formhub_request)
-    print "successful"
-except urllib2.URLError as e:
-    print('We failed to reach a server.')
-    print('Reason: ', e)
-# formhub_response = open('data_from_formhub_oct_7_part.json')
+# formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/fullexposure_form_new_oct_27/api')
+# try:
+#     formhub_response = urllib2.urlopen(formhub_request)
+#     print "successful"
+# except urllib2.URLError as e:
+#     print('We failed to reach a server.')
+#     print('Reason: ', e)
+formhub_response = open('data_from_formhub_oct_7_part.json')
 
 print "loading data"
 json_data = json.loads(formhub_response.read())
@@ -44,7 +44,7 @@ DevApi = OsmApi.OsmApi(api='api06.dev.openstreetmap.org', passwordfile = 'devpas
 # print dev_capabiliies
 
 ##data entry
-# DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
+DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
 
 for building in json_data:
     # pprint(building)
@@ -161,10 +161,14 @@ for building in json_data:
             print('Reason: ', e.reason)
 
         if(old_building_data_dev['tag'].get('building:structure',None)):
+            print "Data exists for way",osm_id
+
+        else:
             # remove ['data'] in master branch
             
             #preserving old data
-            new_data = {'tag':old_building_data_dev['tag']}
+            new_data = {'tag':old_building_data_dev['tag'],'lat':old_building_data_dev['lat'],'lon':old_building_data_dev['lon']}
+
 
             # only in dev version
             
@@ -253,11 +257,11 @@ for building in json_data:
                 new_data['tag']['shape:elevation'] = "narrow_tall_irregular"
 
             # visible physical condition
-            if(building["building:condition"] == "building_condition_poor"):
+            if(building.get("building:condition") == "building_condition_poor"):
                 new_data['tag']['physical_condition'] = "poor"
-            elif(building["building:condition"] == "building_condition_avg"):
+            elif(building.get("building:condition") == "building_condition_avg"):
                 new_data['tag']['physical_condition'] = "average"
-            elif(building["building:condition"] == "building_condition_good"):
+            elif(building.get("building:condition") == "building_condition_good"):
                 new_data['tag']['physical_condition'] = "good"
 
             # building overhang
@@ -278,12 +282,12 @@ for building in json_data:
             elif(building.get("building_gable")=="building_gable_true"):
                 new_data['tag']['building:gable_wall'] = 'yes'
 
-        else:
-            print "Data exists for way",osm_id
+            newosmnode = DevApi.NodeCreate(new_data)
+            print newosmnode
 
         # print DevApi.NodeCreate(new_data)
     #
-# DevApi.ChangesetClose()
+DevApi.ChangesetClose()
 
 print "No of buildings",building_count
 print "surveyors_error",surveyors_error
