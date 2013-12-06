@@ -1,0 +1,182 @@
+uploading to osm experiences
+
+corrected the errors in fullexposure_form_new form, poshan had not uploaded one building 6-10-06-1
+
+in form fullexposure_form_new_oct_27,
+	building id 199010413 changed to 425-107
+	building id 237195206 by poshan, undeleted and corrected 
+	building id 237659478 by pratik, undeleted and corrected 
+	building id 237660541 by sazal, undeleted
+	building id 237683901 ask sazal
+	building id 122-14 by poshan corrected
+	building id 122-20 ask poshan
+	building id 247-145 by pratik corrected to 427-145
+	building id 425-7 added
+	building id 425-23 added
+	building id 425-86 added
+	building id 425-87 added
+	building id 425-88 added
+	building id 425-89 added
+	building id 425-90 added
+	building id 425-111 added
+	building id 425-121 added
+	building id 425-134 added
+	building id 425-135 added
+	building id 425-136 added
+	building id 425-137 added
+	building id 425-138 added
+	building id 425-139 added
+	building id 425-140 added
+	building id 426-76 by pratik added
+	building id 426-77 added
+	building id 426-79 added
+	building id 236702269 duplicated, deleted
+
+in form fullexposure_form_new_oct_29,
+	building id ktm - kmc - 4 - 4785, district data missing
+	building id ktm - kmc - 4 - 1539, district data missing
+	building id ktm - kmc - 4 - 1902, ward data missing
+	building id ktm - kmc - 4 - 2159, ward data missing
+	building id ktm - kmc - 4 - 5080, vdc data missing
+	building id ktm - kmc - 4 - 2541, changed to ktm - kmc - 4 - 2451
+	building id ktm - kmc - 4 - 4380, duplicate data, deleted
+	building id 3033 - 8, building missing, added
+	building id 3024 - 2, building missing, added
+	building id 3024 - 3, building missing, added
+	building id 3024 - 4, building missing, added
+	building id 3032 - 10, changed to 3022-10
+	building id 3022 - 10, tag missing
+	building id 1031 - 16, building missing, added
+	building id 1031 - 10, changed to 1031-1
+	building id 1032 - 10, changed to 1032-1
+	building id 1018 - 2, changed to 1018-12
+	building id ktm - kmc - 4 - 2494 changed to ktm - kmc - 4 - 3944 by sazal
+	building id ktm - kmc - 4 - 4429 changed to ktm - kmc - 4 - 4422
+	building id ktm - kmc - 4 - 3644, building id in ward no
+	building id 1013 - 1083, duplicate of ktm - kmc - 4 - 1083 deleted
+	building id 4016 - 7, tag missing
+	building id 4018 - 40, building missing
+	building id 4016 - 2, tag missing
+	building
+	building id 3024 - 4, tag missing id 4016 - 3, tag missing
+	building id ktm - kmc - 4 - 4335, building in formhub and osm mismatch, 
+	building id ktm - kmc - 4 - 202, building of clinic, already done in school survey, deleted
+	building id ktm - kmc - 4 - 4623, ward data incorrect
+	building id ktm - kmc - 4 - 1746, ward data incorrect
+	building id ktm - kmc - 4 - 3941, district data incorrect
+	building id 4020 - 8, incorrect tagging
+	building id 4020 - 9, incorrect tagging
+	building id 4020 - 17, building missing
+	building id 4030 - 19, building missing
+	building id 4031 - 22, building missing
+	building id 3024 - 14, building missing
+	building id 3026 - 5, building missing
+	building id 1024 - 13, building missing
+	building id 3025 - 12, building missing
+	building id 3025 - 13, building missing
+	building id 3025 - 14, building missing
+	building id 3025 - 15, building missing
+	building id 3025 - 16, building missing
+	building id 3025 - 17, building missing
+	building id 1033 - 1, building missing
+	building id 1033 - 2, building missing
+	building id 1033 - 3, building missing
+	building id 1033 - 4, building missing
+	building id 1025 - 4428, not a new building, changed to ktm - kmc - 4 - 4428
+	building id ktm - kmc - 4 - 5526, deleted building, undelete
+	building id ktm - kmc - 4 - 3297, building id in place of ward no
+	building id ktm - kmc - 4 - 354, deleted building, undelete
+	building id ktm - kmc - 4 - 5520, deleted building, undelete
+	building id ktm - kmc - 4 - 1889, vdc data missing
+	building id ktm - kmc - 4 - 4782, vdc data missing
+	building id ktm - kmc - 4 - 4780, deleted building, undelete
+	building id 1035 - 4, changed to 1036 - 4
+	building id 1035 - 5, changed to 1036 - 5
+	building id ktm - kmc - 4 - 5251, duplicate due to conflict in areas
+	building id ktm - kmc - 4 - 5248, duplicate due to conflict in areas
+	building id ktm - kmc - 4 - 4193, district data missing
+	building id 4037 - 7, duplicate due to conflict in areas
+	building id ktm - kmc - 4 - 5519, wrong building deleted
+	building id ktm - kmc - 4 - 3704, district data missing
+	building id ktm - kmc - 4 - 2773, deleted building, undelete
+	building id 1038 - 13, tag missing
+
+in form fullexposure_form_new_oct_7, 
+	building id 298669287, deleted test building by nirab
+	building id 4 - 10 - 8 - 9, marked as existing building, corrected
+	building id 1 - 10 - 22 - 22, tag error 6 - 10 - 22 - 22, corrected
+	building id 190954840, duplicate deleted
+	building id 196060345, duplicate deleted
+	building id 197134019, duplicate deleted
+	building id 198011770, duplicate deleted
+	building id 198121521, duplicate deleted
+	building id 198121766, duplicate deleted
+	building id 199784288, duplicate deleted
+	building id 203446338, duplicate deleted
+	building id 203448231, duplicate deleted
+	building id 204202118, duplicate deleted
+	building id 211741411, duplicate deleted
+	building id 237209839, duplicate deleted
+	building id 237646346, duplicate deleted
+	building id 237666564, duplicate deleted
+	building id 237967313, duplicate deleted
+	building id 237969116, duplicate deleted
+	building id 238050870, duplicate deleted
+	building id 238149783, duplicate deleted
+	building id 7 - 10 - 07 - 4, marked as existing building, corrected
+	building id 238063221, marked as new building, corrected
+	building id 238153196, marked as new building, corrected
+	building id 238046511, marked as new building, corrected
+	building id 238152221, marked as new building, corrected
+	building id 236702236, marked as new building, corrected
+	building id 238047464, marked as new building, corrected
+	building id 204207624, marked as new building, corrected
+	building id 203448266, marked as new building, corrected
+	building id 238049950, marked as new building, corrected
+	building id 204202110, marked as new building, corrected
+	building id 204207613, marked as new building, corrected
+	building id 198011738, marked as new building, corrected
+	building id 198121718, marked as new building, corrected
+	building id 237493968, marked as new building, corrected
+	building id 198011603, marked as new building, corrected
+	building id 237209109, marked as new building, corrected
+	building id 238161431, marked as new building, corrected
+	building id 207554149, marked as new building, corrected
+	building id 237477713, marked as new building, corrected
+	building id 204342752, marked as new building, corrected	
+	building id 237178599, marked as new building, corrected
+	building id 1 - 10 - 07 - 18, marked as existing building, corrected
+	building id 7 - 10 - 25 - 1, marked as existing building, corrected
+	building id 4 - 10 - 24 - 19, marked as existing building, corrected
+	building id 7 - 10 - 23 - 21, marked as existing building, corrected
+	building id 4 - 10 - 09 - 27, marked as existing building, corrected
+
+	building id 19060529, error in id by manoj, changed to 196060529
+	building id 19305054, error in id by melanie, changed to 199305054
+	building id 19606333, error in id by poshan, changed to 196060333
+	building id 19801669, error in id by pratik, changed to 198011669
+	building id 19811650, error in id by pratik, changed to 198121650
+	building id 20344814, error in id by manoj, changed to 203448214
+	building id 20402106, error in id by melanie, changed to 204202106
+	building id 20420767, error in id by manoj, changed to 204207637
+	building id 20605809, error in id by manoj, changed to 206055809
+	building id 23178497, error in id by manoj, changed to 237178497	
+	building id 23717969, error in id by sazal, changed to 237179693
+	building id 23766659, error in id by helina, changed to 237665559	
+	building id 23767079, error in id by pratik, changed to 237671079	
+	building id 23796346, error in id by melanie, changed to 237967346
+	building id 23850876, error in id by manoj, changed to 238050876
+	building id 26702234, error in id by poshan, changed to 236702234
+	building id 193295094, error in id by manoj, changed to 193295115	
+	+ 120 building id errors not solved
+
+ left("fullexposure_form_new_oct_7_2013_12_06_01_45_54_with_id_survey_date" ,10) = '2013-10-17 ' AND "fullexposure_form_new_oct_7_2013_12_06_01_45_54_with_id_surveyor_id" ='7'
+
+CASE WHEN  right(  "building_id" ,3) = '809'  THEN  "building_id"  END
+
+How to find error in building id:
+Description of error: This error occurs when osmid or building id in psuedonumber is wrongly entered by surveyor. The program cannot find this because objects with the wrong id exists in database. 
+
+How to find: during test upload to dev server, a copy of the object is sent to JOSM through remote control. This gives an overview of the distribution of surveyed buildings. This is overlayed on the areas assigned to each surveyor. This gives a visual check as to where the buildings are outside the surveyed area. Buildings outside the areas are error in id.
+
+How to correct: Find that building id in formhub. Record the date of survey and surveyor. Then filter out the data by the surveyor for that date. Now we need to use qgis to see existing buildings and overpass to see new buildings (or merge both of them and analyse with qgis, this is a long process and used only when there are lot of errors.) Find a building which should have been surveyed by doesnot appear in both the old buildings and new buildings. Check the id of the found buildings with erroroues id. Errors if present is evident.
