@@ -31,7 +31,7 @@ def start_upload():
     print("Getting data from internet")
 
     ## insert form here
-    form = "fullexposure_form_new_oct_7"
+    form = "fullexposure_form_new"
 
     formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/'+form+'/api')
     try:
@@ -57,7 +57,7 @@ def start_upload():
     # print dev_capabiliies
 
     ##data entry
-    changeset = DevApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
+    changeset = MainApi.ChangesetCreate({'comment':u'full exposure survey','source':u'KathmanduLivingKLabs'})
 
     for building in json_data:
         # pprint(building)
@@ -156,10 +156,11 @@ def start_upload():
             print "retrieving data from main osm for way",osm_id
 
              
-            dev_cur = dev_db.cursor()
+            # dev_cur = dev_db.cursor()
+            main_cur = main_db.cursor()
             
-            dev_cur.execute("SELECT changeset from psuedonumber where osmid = " + str(osm_id))
-            db_response = convert(dev_cur.fetchall())
+            main_cur.execute("SELECT changeset from psuedonumber where osmid = " + str(osm_id))
+            db_response = convert(main_cur.fetchall())
             print db_response
             
             try:
@@ -170,35 +171,36 @@ def start_upload():
                     print "already Uploaded",osm_id
                 else:
                     try:
-                        old_data = convert(MainApi.WayFull(osm_id)) # in dev
-                        old_building_data_dev = old_data[-1]['data']
-                        lat = 0.0
-                        lon = 0.0
-                        count=0
-                        for element in old_data:
-                            if(element['type']=='node'):
-                                lat += element['data']['lat']
-                                lon += element['data']['lon']
-                                count += 1
-                            old_building_data_dev['lat'] = lat/count
-                            old_building_data_dev['lon'] = lon/count
+                        # old_data = convert(MainApi.WayFull(osm_id)) # in dev
+                        # old_building_data_dev = old_data[-1]['data']
+                        # lat = 0.0
+                        # lon = 0.0
+                        # count=0
+                        # for element in old_data:
+                        #     if(element['type']=='node'):
+                        #         lat += element['data']['lat']
+                        #         lon += element['data']['lon']
+                        #         count += 1
+                        #     old_building_data_dev['lat'] = lat/count
+                        #     old_building_data_dev['lon'] = lon/count
                         old_building_data_main = convert(MainApi.WayGet(osm_id)) # in main
                         # pprint(old_building_data_dev)
-                        # pprint(old_building_data_main)
+                        pprint(old_building_data_main)
                         # print old_building_data_dev==old_building_data_main
 
                     except urllib2.URLError:
                         print('We failed to reach a server.')
                         print('Reason: ', e.reason)
 
-                    if(old_building_data_dev['tag'].get('building:structure',None)):
+                    if(old_building_data_main['tag'].get('building:structure',None)):
                         print "Data exists for way",osm_id
 
                     else:
                         # remove ['data'] in master branch
                         
                         #preserving old data
-                        new_data = {'tag':old_building_data_dev['tag'],'lat':old_building_data_dev['lat'],'lon':old_building_data_dev['lon']}
+                        # new_data = {'tag':old_building_data_dev['tag'],'lat':old_building_data_dev['lat'],'lon':old_building_data_dev['lon']}
+                        new_data = {'tag':old_building_data_main['tag'],'id':old_building_data_main['id'],'nd':old_building_data_main['nd'],'changeset':changeset,'version':old_building_data_main['version']}
 
                         # only in dev version
                         
@@ -312,11 +314,12 @@ def start_upload():
                         elif(building.get("building_gable")=="building_gable_true"):
                             new_data['tag']['building:gable_wall'] = 'yes'
 
-                        newosmnode = DevApi.NodeCreate(new_data)
-                        print newosmnode
+                        # pprint(new_data)
+                        newosmnode = MainApi.WayUpdate(new_data)
+                        pprint(newosmnode)
                         urllib2.urlopen("http://localhost:8111/load_object?new_layer=false&objects=w"+str(osm_id))
 
-                        dev_cur = dev_db.cursor()
+                        main_cur = main_db.cursor()
                         # query = "SELECT osmid FROM psuedonumber WHERE osmid = " + str(osm_id)
                         # print query
                         # dev_cur.execute(query)
@@ -326,22 +329,23 @@ def start_upload():
                             # print "data is here"
                         update_params = (str(overpass_tag.get("kll:oid","")),str(datetime.datetime.utcnow()),str(changeset),str(osm_id))
                         try:
-                            dev_cur.execute("""UPDATE psuedonumber set id_from_field = ?, upload_date = ?, changeset = ? WHERE osmid = ?""",update_params);
-                            dev_db.commit()
+                            main_cur.execute("""UPDATE psuedonumber set id_from_field = ?, upload_date = ?, changeset = ? WHERE osmid = ?""",update_params);
+                            main_db.commit()
+                            pass
                         except lite.Error, e:
                             print "Ooops:", e.args[0]
 
                         query = "SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = " + str(osm_id)
                         print query
-                        dev_cur.execute(query)
-                        dev_resp = dev_cur.fetchall()
-                        print dev_resp
+                        main_cur.execute(query)
+                        main_resp = main_cur.fetchall()
+                        print main_resp
                         # else:
                             # db_out_of_date = "\nDatabase Out Of Date, Some buildings have not been found in database, \n\nStrong caution : Update local database before uploading"
             except IndexError:
                 print "building not in database"
                 changeset_upload = False
-    DevApi.ChangesetClose()
+    MainApi.ChangesetClose()
 
     print "\n"
     print "No of buildings",building_count
