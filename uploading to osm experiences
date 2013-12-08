@@ -168,7 +168,15 @@ in form fullexposure_form_new_oct_7,
 	building id 23850876, error in id by manoj, changed to 238050876
 	building id 26702234, error in id by poshan, changed to 236702234
 	building id 193295094, error in id by manoj, changed to 193295115	
-	+ 120 building id errors not solved
+	building id 4-10-24-24, duplicated by sazal, delete
+	building id 4-10-24-25, duplicated by sazal, delete
+	building id 4-10-24-6, tag error, corrected
+	building id 4-10-24-3, tag error, corrected
+	building id 4-10-24-23, tag error, corrected
+	building id 7-10-17-54, tag error, corrected
+
+
+	+ 69 building id errors not solved (very difficult and tedious work)
 
  left("fullexposure_form_new_oct_7_2013_12_06_01_45_54_with_id_survey_date" ,10) = '2013-10-17 ' AND "fullexposure_form_new_oct_7_2013_12_06_01_45_54_with_id_surveyor_id" ='7'
 
