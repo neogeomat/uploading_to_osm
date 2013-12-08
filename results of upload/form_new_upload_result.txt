@@ -1,0 +1,5755 @@
+python version= 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)]
+fullexposure_form_new
+Have you updated the main pseudonumber database 
+ to include the newly digitized buildings as well?(y/n)y
+Is Josm on with new emprty layer and remote control enabled?(y/n)y
+Getting data from internet
+successful
+fullexposure_form_new
+loading data
+
+ building_count 0
+acc7c538-7f01-4e07-8692-79d75c7111a0
+osm_id 189649038
+retrieving data from main osm for way 189649038
+[(u'',)]
+changeset_upload 
+{'changeset': 18212887,
+ 'id': 189649038,
+ 'nd': [2002377436,
+        2101248312,
+        2101248318,
+        2485036011L,
+        2002377743,
+        2002377719,
+        2002377746,
+        2002377759,
+        2002377770,
+        2002377436],
+ 'tag': {'building': 'commercial', 'roof:material': 'enternit'},
+ 'timestamp': '2013-10-06T14:03:18Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 8}
+{'changeset': 19335007,
+ 'id': 189649038,
+ 'nd': [2002377436,
+        2101248312,
+        2101248318,
+        2485036011L,
+        2002377743,
+        2002377719,
+        2002377746,
+        2002377759,
+        2002377770,
+        2002377436],
+ 'tag': {'building': 'commercial',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'roof:material': 'enternit',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular'},
+ 'version': 9}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189649038
+[(u'189649038', u'', u'2013-12-08 04:35:19.317000', 19335007)]
+
+ building_count 1
+5edcc807-36f0-4808-9300-ed0e44e5e5ef
+osm_id 189649071
+retrieving data from main osm for way 189649071
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 189649071,
+ 'nd': [2002377776, 2002377484, 2002377490, 2002377499, 2002377776],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:10Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 189649071,
+ 'nd': [2002377776, 2002377484, 2002377490, 2002377499, 2002377776],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'flexible',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189649071
+[(u'189649071', u'', u'2013-12-08 04:35:20.740000', 19335007)]
+
+ building_count 2
+40c1ec05-9709-4118-a37c-47161afeb6c7
+osm_id 236539800
+retrieving data from main osm for way 236539800
+[(u'',)]
+changeset_upload 
+{'changeset': 18246700,
+ 'id': 236539800,
+ 'nd': [2445625952L,
+        2445625946L,
+        2445625942L,
+        2488028215L,
+        2488028219L,
+        2445625951L,
+        2445625952L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:45:46Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 236539800,
+ 'nd': [2445625952L,
+        2445625946L,
+        2445625942L,
+        2488028215L,
+        2488028219L,
+        2445625951L,
+        2445625952L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236539800
+[(u'236539800', u'', u'2013-12-08 04:35:22.330000', 19335007)]
+
+ building_count 3
+ed3af863-2b92-4dbf-8abc-e48431210438
+osm_id 236539798
+retrieving data from main osm for way 236539798
+[(u'',)]
+changeset_upload 
+{'changeset': 17669610,
+ 'id': 236539798,
+ 'nd': [2445625950L, 2445625937L, 2445625935L, 2445625947L, 2445625950L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T11:22:25Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236539798,
+ 'nd': [2445625950L, 2445625937L, 2445625935L, 2445625947L, 2445625950L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236539798
+[(u'236539798', u'', u'2013-12-08 04:35:23.951000', 19335007)]
+
+ building_count 4
+57d9526f-fee2-4b26-8154-79de148f7773
+osm_id 236539804
+retrieving data from main osm for way 236539804
+[(u'',)]
+changeset_upload 
+{'changeset': 17669610,
+ 'id': 236539804,
+ 'nd': [2445625934L,
+        2445625932L,
+        2445625938L,
+        2445625939L,
+        2445625943L,
+        2445625944L,
+        2445625941L,
+        2445625940L,
+        2445625933L,
+        2445625934L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T11:22:25Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236539804,
+ 'nd': [2445625934L,
+        2445625932L,
+        2445625938L,
+        2445625939L,
+        2445625943L,
+        2445625944L,
+        2445625941L,
+        2445625940L,
+        2445625933L,
+        2445625934L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236539804
+[(u'236539804', u'', u'2013-12-08 04:35:25.351000', 19335007)]
+
+ building_count 5
+e4be0d2f-663f-4cbf-9f7d-382d0632f826
+osm_id 235431746
+retrieving data from main osm for way 235431746
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431746,
+ 'nd': [2434944751L, 2434944763L, 2434944757L, 2434944747L, 2434944751L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:54Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431746,
+ 'nd': [2434944751L, 2434944763L, 2434944757L, 2434944747L, 2434944751L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431746
+[(u'235431746', u'', u'2013-12-08 04:35:26.821000', 19335007)]
+
+ building_count 6
+98b84d47-7500-4f4d-ac98-8479ad2bf220
+osm_id 235431736
+retrieving data from main osm for way 235431736
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431736,
+ 'nd': [2434944749L, 2434944761L, 2434944759L, 2434944745L, 2434944749L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:53Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431736,
+ 'nd': [2434944749L, 2434944761L, 2434944759L, 2434944745L, 2434944749L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431736
+[(u'235431736', u'', u'2013-12-08 04:35:28.180000', 19335007)]
+
+ building_count 7
+8fa53fdf-e5b1-452a-bbba-ae77574afcc3
+osm_id 235431739
+retrieving data from main osm for way 235431739
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431739,
+ 'nd': [2434944753L, 2434944765L, 2434944755L, 2434944743L, 2434944753L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:54Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431739,
+ 'nd': [2434944753L, 2434944765L, 2434944755L, 2434944743L, 2434944753L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431739
+[(u'235431739', u'', u'2013-12-08 04:35:29.492000', 19335007)]
+
+ building_count 8
+42fd3470-949d-422e-8658-2a35a9cfb32c
+osm_id 231535050
+retrieving data from main osm for way 231535050
+[(u'',)]
+changeset_upload 
+{'changeset': 17121836,
+ 'id': 231535050,
+ 'nd': [2399039240L, 2399039238L, 2399039237L, 2399039239L, 2399039240L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-28T07:56:55Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231535050,
+ 'nd': [2399039240L, 2399039238L, 2399039237L, 2399039239L, 2399039240L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231535050
+[(u'231535050', u'', u'2013-12-08 04:35:30.894000', 19335007)]
+
+ building_count 9
+db0fd0ee-acff-4921-bb38-9c0c6eac6aac
+osm_id 235431735
+retrieving data from main osm for way 235431735
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431735,
+ 'nd': [2434944730L, 2434944739L, 2434944734L, 2434944725L, 2434944730L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:53Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431735,
+ 'nd': [2434944730L, 2434944739L, 2434944734L, 2434944725L, 2434944730L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431735
+[(u'235431735', u'', u'2013-12-08 04:35:32.191000', 19335007)]
+
+ building_count 10
+17b14c9f-d411-4cf3-95aa-9deff642a8d0
+osm_id 236539802
+retrieving data from main osm for way 236539802
+[(u'',)]
+changeset_upload 
+{'changeset': 18262370,
+ 'id': 236539802,
+ 'nd': [2445625955L,
+        2445625957L,
+        2489269073L,
+        2002377660,
+        2445625958L,
+        2445625956L,
+        2445625955L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-09T11:02:57Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 236539802,
+ 'nd': [2445625955L,
+        2445625957L,
+        2489269073L,
+        2002377660,
+        2445625958L,
+        2445625956L,
+        2445625955L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '6',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236539802
+[(u'236539802', u'', u'2013-12-08 04:35:33.547000', 19335007)]
+
+ building_count 11
+abb4f40c-33d5-4c0d-a2ae-79d3c09409df
+osm_id 237195229
+retrieving data from main osm for way 237195229
+[(u'',)]
+changeset_upload 
+{'changeset': 17746324,
+ 'id': 237195229,
+ 'nd': [2451418000L, 2451418001L, 2451417999L, 2451417998L, 2451418000L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-09T09:13:51Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237195229,
+ 'nd': [2451418000L, 2451418001L, 2451417999L, 2451417998L, 2451418000L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237195229
+[(u'237195229', u'', u'2013-12-08 04:35:35.007000', 19335007)]
+
+ building_count 12
+47ad798e-9a59-424b-88cd-446fd384d9ba
+osm_id 238036761
+retrieving data from main osm for way 238036761
+[(u'',)]
+changeset_upload 
+{'changeset': 17845456,
+ 'id': 238036761,
+ 'nd': [2459053434L,
+        2459053436L,
+        2459053428L,
+        2459053427L,
+        2459053432L,
+        2459053434L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T08:53:00Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238036761,
+ 'nd': [2459053434L,
+        2459053436L,
+        2459053428L,
+        2459053427L,
+        2459053432L,
+        2459053434L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238036761
+[(u'238036761', u'', u'2013-12-08 04:35:36.526000', 19335007)]
+
+ building_count 13
+86eb53a2-f25a-457e-a916-512070974784
+osm_id 238036759
+retrieving data from main osm for way 238036759
+[(u'',)]
+changeset_upload 
+{'changeset': 17845456,
+ 'id': 238036759,
+ 'nd': [2459053426L, 2459053429L, 2459053425L, 2459053419L, 2459053426L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T08:53:00Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238036759,
+ 'nd': [2459053426L, 2459053429L, 2459053425L, 2459053419L, 2459053426L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238036759
+[(u'238036759', u'', u'2013-12-08 04:35:37.777000', 19335007)]
+
+ building_count 14
+b6e74532-62c1-401f-8a57-57d010f03c02
+osm_id 192183437
+retrieving data from main osm for way 192183437
+[(u'',)]
+changeset_upload 
+{'changeset': 17681308,
+ 'id': 192183437,
+ 'nd': [2027499474,
+        2027499479,
+        2027499476,
+        2446672814L,
+        2446672815L,
+        2027499465,
+        2027499474],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T04:52:28Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 192183437,
+ 'nd': [2027499474,
+        2027499479,
+        2027499476,
+        2446672814L,
+        2446672815L,
+        2027499465,
+        2027499474],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183437
+[(u'192183437', u'', u'2013-12-08 04:35:39.368000', 19335007)]
+
+ building_count 15
+6a05d07b-9bf4-4a5a-908e-c19f555a2ad2
+osm_id 192183436
+retrieving data from main osm for way 192183436
+[(u'',)]
+changeset_upload 
+{'changeset': 18246648,
+ 'id': 192183436,
+ 'nd': [2027499457,
+        2027499468,
+        2027499461,
+        2488016379L,
+        2488016382L,
+        2027499455,
+        2027499457],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:42:27Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 192183436,
+ 'nd': [2027499457,
+        2027499468,
+        2027499461,
+        2488016379L,
+        2488016382L,
+        2027499455,
+        2027499457],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183436
+[(u'192183436', u'', u'2013-12-08 04:35:41.050000', 19335007)]
+
+ building_count 16
+76bc7720-7521-478f-97c9-ff91c27e7387
+osm_id 192183432
+retrieving data from main osm for way 192183432
+[(u'',)]
+changeset_upload 
+{'changeset': 13994993,
+ 'id': 192183432,
+ 'nd': [2027499463, 2027499470, 2027499466, 2027499459, 2027499463],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-23T06:41:49Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192183432,
+ 'nd': [2027499463, 2027499470, 2027499466, 2027499459, 2027499463],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183432
+[(u'192183432', u'', u'2013-12-08 04:35:42.408000', 19335007)]
+
+ building_count 17
+6542a28d-7a65-4911-b073-bbaf159e33cf
+osm_id 237062739
+retrieving data from main osm for way 237062739
+[(u'',)]
+changeset_upload 
+{'changeset': 18246480,
+ 'id': 237062739,
+ 'nd': [2450167915L,
+        2487994607L,
+        2487994609L,
+        2487994610L,
+        2450167917L,
+        2450167916L,
+        2450167914L,
+        2487994608L,
+        2450167915L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:32:38Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 237062739,
+ 'nd': [2450167915L,
+        2487994607L,
+        2487994609L,
+        2487994610L,
+        2450167917L,
+        2450167916L,
+        2450167914L,
+        2487994608L,
+        2450167915L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237062739
+[(u'237062739', u'', u'2013-12-08 04:35:43.932000', 19335007)]
+
+ building_count 18
+d337faa9-dc5c-4c5e-aad3-6eb33cc7f00a
+osm_id 197902741
+retrieving data from main osm for way 197902741
+[(u'',)]
+changeset_upload 
+{'changeset': 18246451,
+ 'id': 197902741,
+ 'nd': [2081009536,
+        2090691207,
+        2081009552,
+        2081009534,
+        2487994114L,
+        2487994115L,
+        2487994116L,
+        2081009536],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:31:11Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 197902741,
+ 'nd': [2081009536,
+        2090691207,
+        2081009552,
+        2081009534,
+        2487994114L,
+        2487994115L,
+        2487994116L,
+        2081009536],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902741
+[(u'197902741', u'', u'2013-12-08 04:35:45.354000', 19335007)]
+
+ building_count 19
+73cb4135-b4e6-4883-ae3a-dc048758260d
+osm_id 208408475
+retrieving data from main osm for way 208408475
+[(u'',)]
+changeset_upload 
+{'changeset': 15453320,
+ 'id': 208408475,
+ 'nd': [2187036533L, 2187036531L, 2187036532L, 2187036534L, 2187036533L],
+ 'tag': {'building': 'N/A',
+         'building:floor_type': 'N/A',
+         'building:level': 'N/A',
+         'building:roof_type': 'N/A',
+         'building:typology': 'N/A',
+         'building:use': 'N/A'},
+ 'timestamp': '2013-03-22T11:39:06Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 208408475,
+ 'nd': [2187036533L, 2187036531L, 2187036532L, 2187036534L, 2187036533L],
+ 'tag': {'building': 'N/A',
+         'building:adjacency': 'no',
+         'building:floor_type': 'N/A',
+         'building:gable_wall': 'no',
+         'building:level': 'N/A',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:roof_type': 'N/A',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:typology': 'N/A',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 208408475
+[(u'208408475', u'', u'2013-12-08 04:35:46.749000', 19335007)]
+
+ building_count 20
+2d4811b6-bb0a-4c2e-8639-f12d6577734e
+osm_id 236535659
+retrieving data from main osm for way 236535659
+[(u'',)]
+changeset_upload 
+{'changeset': 17669225,
+ 'id': 236535659,
+ 'nd': [2445589272L, 2445589268L, 2445589263L, 2445589267L, 2445589272L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T10:59:13Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236535659,
+ 'nd': [2445589272L, 2445589268L, 2445589263L, 2445589267L, 2445589272L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236535659
+[(u'236535659', u'', u'2013-12-08 04:35:48.121000', 19335007)]
+
+ building_count 21
+7271d81b-e7e4-4de1-98fd-5b6cb04105f8
+osm_id 208669355
+retrieving data from main osm for way 208669355
+[(u'',)]
+changeset_upload 
+{'changeset': 15279058,
+ 'id': 208669355,
+ 'nd': [2189427396L, 2189427393L, 2189427389L, 2189427391L, 2189427396L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-03-07T08:53:44Z',
+ 'uid': 715547,
+ 'user': 'paudel ananda',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 208669355,
+ 'nd': [2189427396L, 2189427393L, 2189427389L, 2189427391L, 2189427396L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 208669355
+[(u'208669355', u'', u'2013-12-08 04:35:49.980000', 19335007)]
+
+ building_count 22
+c50aa7fc-f426-491b-ad7e-712dd1d9e358
+osm_id 193090631
+retrieving data from main osm for way 193090631
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090631,
+ 'nd': [2036131441, 2036131450, 2036131448, 2036131439, 2036131441],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:21Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090631,
+ 'nd': [2036131441, 2036131450, 2036131448, 2036131439, 2036131441],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090631
+[(u'193090631', u'', u'2013-12-08 04:35:51.395000', 19335007)]
+
+ building_count 23
+5b367d3e-95f9-4788-b033-d1dc5f6503aa
+osm_id 236670173
+retrieving data from main osm for way 236670173
+[(u'',)]
+changeset_upload 
+{'changeset': 17681308,
+ 'id': 236670173,
+ 'nd': [2446672810L, 2446672805L, 2446672807L, 2446672812L, 2446672810L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T04:52:28Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236670173,
+ 'nd': [2446672810L, 2446672805L, 2446672807L, 2446672812L, 2446672810L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236670173
+[(u'236670173', u'', u'2013-12-08 04:35:52.782000', 19335007)]
+
+ building_count 24
+dbaf6ca9-091b-44d5-b6bd-3288e6edd992
+osm_id 235431732
+retrieving data from main osm for way 235431732
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431732,
+ 'nd': [2434944721L, 2434944728L, 2434944723L, 2434944718L, 2434944721L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:53Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431732,
+ 'nd': [2434944721L, 2434944728L, 2434944723L, 2434944718L, 2434944721L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431732
+[(u'235431732', u'', u'2013-12-08 04:35:54.021000', 19335007)]
+
+ building_count 25
+98fe9bbd-8e40-48f7-a562-aaf5e3c3fcb7
+osm_id 208408427
+retrieving data from main osm for way 208408427
+[(u'',)]
+changeset_upload 
+{'changeset': 15257515,
+ 'id': 208408427,
+ 'nd': [2187036538L, 2187036537L, 2187036535L, 2187036536L, 2187036538L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-03-05T11:47:57Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 208408427,
+ 'nd': [2187036538L, 2187036537L, 2187036535L, 2187036536L, 2187036538L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 208408427
+[(u'208408427', u'', u'2013-12-08 04:35:55.375000', 19335007)]
+
+ building_count 26
+93fafd83-7907-4c27-a003-058edc55ae6d
+osm_id 208669262
+retrieving data from main osm for way 208669262
+[(u'',)]
+changeset_upload 
+{'changeset': 18246504,
+ 'id': 208669262,
+ 'nd': [2189427400L,
+        2189427399L,
+        2487994864L,
+        2487994865L,
+        2487994863L,
+        2487994862L,
+        2189427397L,
+        2189427398L,
+        2189427400L],
+ 'tag': {'building': 'N/A',
+         'building:floor_type': 'N/A',
+         'building:level': 'N/A',
+         'building:roof_type': 'N/A',
+         'building:typology': 'N/A',
+         'building:use': 'N/A'},
+ 'timestamp': '2013-10-08T12:34:14Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 208669262,
+ 'nd': [2189427400L,
+        2189427399L,
+        2487994864L,
+        2487994865L,
+        2487994863L,
+        2487994862L,
+        2189427397L,
+        2189427398L,
+        2189427400L],
+ 'tag': {'building': 'N/A',
+         'building:adjacency': 'no',
+         'building:floor_type': 'N/A',
+         'building:gable_wall': 'no',
+         'building:level': 'N/A',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:roof_type': 'N/A',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:typology': 'N/A',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 208669262
+[(u'208669262', u'', u'2013-12-08 04:35:56.866000', 19335007)]
+
+ building_count 27
+2b34c72b-1450-4ed4-86fd-d9731513bc41
+osm_id 236670174
+retrieving data from main osm for way 236670174
+[(u'',)]
+changeset_upload 
+{'changeset': 17681308,
+ 'id': 236670174,
+ 'nd': [2446672818L, 2446672820L, 2446672822L, 2446672821L, 2446672818L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T04:52:28Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236670174,
+ 'nd': [2446672818L, 2446672820L, 2446672822L, 2446672821L, 2446672818L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236670174
+[(u'236670174', u'', u'2013-12-08 04:35:58.178000', 19335007)]
+
+ building_count 28
+fef44d2d-daae-4df3-8828-6904b702f0ce
+osm_id 236670177
+retrieving data from main osm for way 236670177
+[(u'',)]
+changeset_upload 
+{'changeset': 17681308,
+ 'id': 236670177,
+ 'nd': [2446672819L, 2446672817L, 2446672813L, 2446672816L, 2446672819L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T04:52:28Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236670177,
+ 'nd': [2446672819L, 2446672817L, 2446672813L, 2446672816L, 2446672819L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236670177
+[(u'236670177', u'', u'2013-12-08 04:35:59.457000', 19335007)]
+
+ building_count 29
+40d20884-d725-4c68-836c-04b1abaa44b9
+osm_id 193090686
+retrieving data from main osm for way 193090686
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090686,
+ 'nd': [2036131529, 2036131539, 2036131537, 2036131525, 2036131529],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:23Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090686,
+ 'nd': [2036131529, 2036131539, 2036131537, 2036131525, 2036131529],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090686
+[(u'193090686', u'', u'2013-12-08 04:36:00.778000', 19335007)]
+
+ building_count 30
+7c1f8116-1053-4c04-92ab-b66fa05cf50f
+osm_id 193090723
+retrieving data from main osm for way 193090723
+[(u'',)]
+changeset_upload 
+{'changeset': 18246451,
+ 'id': 193090723,
+ 'nd': [2036131535,
+        2036131545,
+        2036131543,
+        2487994124L,
+        2036131533,
+        2487994123L,
+        2036131535],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:31:11Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 193090723,
+ 'nd': [2036131535,
+        2036131545,
+        2036131543,
+        2487994124L,
+        2036131533,
+        2487994123L,
+        2036131535],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090723
+[(u'193090723', u'', u'2013-12-08 04:36:02.540000', 19335007)]
+
+ building_count 31
+2e7cabd8-8029-4d9b-8102-bafab01655be
+osm_id 193090718
+retrieving data from main osm for way 193090718
+[(u'',)]
+changeset_upload 
+{'changeset': 18246451,
+ 'id': 193090718,
+ 'nd': [2036131531,
+        2487994128L,
+        2036131547,
+        2487994130L,
+        2487994129L,
+        2036131541,
+        2487994127L,
+        2036131527,
+        2036131531],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:31:11Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 193090718,
+ 'nd': [2036131531,
+        2487994128L,
+        2036131547,
+        2487994130L,
+        2487994129L,
+        2036131541,
+        2487994127L,
+        2036131527,
+        2036131531],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090718
+[(u'193090718', u'', u'2013-12-08 04:36:03.831000', 19335007)]
+
+ building_count 32
+dc5f4626-0a38-4248-b760-40856be715cd
+osm_id 231526469
+retrieving data from main osm for way 231526469
+[(u'',)]
+changeset_upload 
+{'changeset': 17121170,
+ 'id': 231526469,
+ 'nd': [2398967552L, 2398967551L, 2398967546L, 2398967548L, 2398967552L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-28T06:11:29Z',
+ 'uid': 1361677,
+ 'user': 'KTM-Mappers',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231526469,
+ 'nd': [2398967552L, 2398967551L, 2398967546L, 2398967548L, 2398967552L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231526469
+[(u'231526469', u'', u'2013-12-08 04:36:05.184000', 19335007)]
+
+ building_count 33
+cee5c08c-708b-49c4-a78e-87e557abf0ae
+osm_id 231293738
+retrieving data from main osm for way 231293738
+[(u'',)]
+changeset_upload 
+{'changeset': 17096853,
+ 'id': 231293738,
+ 'nd': [2396941804L, 2396941805L, 2396941803L, 2396941801L, 2396941804L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-26T05:13:33Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231293738,
+ 'nd': [2396941804L, 2396941805L, 2396941803L, 2396941801L, 2396941804L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231293738
+[(u'231293738', u'', u'2013-12-08 04:36:06.599000', 19335007)]
+
+ building_count 34
+b94338b1-8ee3-4193-a927-be8f2b664da7
+osm_id 231293743
+retrieving data from main osm for way 231293743
+[(u'',)]
+changeset_upload 
+{'changeset': 17096853,
+ 'id': 231293743,
+ 'nd': [2396941800L, 2396941802L, 2396941799L, 2396941797L, 2396941800L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-26T05:13:33Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231293743,
+ 'nd': [2396941800L, 2396941802L, 2396941799L, 2396941797L, 2396941800L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231293743
+[(u'231293743', u'', u'2013-12-08 04:36:07.915000', 19335007)]
+
+ building_count 35
+a130f80d-1786-4c63-897c-f06f6d00a2f0
+osm_id 231293760
+retrieving data from main osm for way 231293760
+[(u'',)]
+changeset_upload 
+{'changeset': 17096853,
+ 'id': 231293760,
+ 'nd': [2396941796L, 2396941798L, 2396941795L, 2396941794L, 2396941796L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-26T05:13:34Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231293760,
+ 'nd': [2396941796L, 2396941798L, 2396941795L, 2396941794L, 2396941796L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231293760
+[(u'231293760', u'', u'2013-12-08 04:36:09.222000', 19335007)]
+
+ building_count 36
+f7cda88b-92e3-4e49-bd1e-006bc6814bdb
+osm_id 231526465
+retrieving data from main osm for way 231526465
+[(u'',)]
+changeset_upload 
+{'changeset': 17684636,
+ 'id': 231526465,
+ 'nd': [2398967544L, 2398967543L, 2398967531L, 2398967532L, 2398967544L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T10:06:21Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 231526465,
+ 'nd': [2398967544L, 2398967543L, 2398967531L, 2398967532L, 2398967544L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231526465
+[(u'231526465', u'', u'2013-12-08 04:36:11.035000', 19335007)]
+
+ building_count 37
+0c3101e5-1a29-46e2-a4f8-005a45c2d1ea
+osm_id 193090624
+retrieving data from main osm for way 193090624
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090624,
+ 'nd': [2036131398, 2036131408, 2036131412, 2036131402, 2036131398],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:21Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090624,
+ 'nd': [2036131398, 2036131408, 2036131412, 2036131402, 2036131398],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090624
+[(u'193090624', u'', u'2013-12-08 04:36:12.417000', 19335007)]
+
+ building_count 38
+2f21bf6d-3aea-41e2-b35a-438473959b86
+osm_id 193090674
+retrieving data from main osm for way 193090674
+[(u'',)]
+changeset_upload 
+{'changeset': 18246451,
+ 'id': 193090674,
+ 'nd': [2036131400,
+        2036131410,
+        2036131416,
+        2487994117L,
+        2487994118L,
+        2036131404,
+        2036131400],
+ 'tag': {'building': 'N/A',
+         'building:floor_type': 'N/A',
+         'building:level': 'N/A',
+         'building:roof_type': 'N/A',
+         'building:typology': 'N/A',
+         'building:use': 'N/A'},
+ 'timestamp': '2013-10-08T12:31:11Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 193090674,
+ 'nd': [2036131400,
+        2036131410,
+        2036131416,
+        2487994117L,
+        2487994118L,
+        2036131404,
+        2036131400],
+ 'tag': {'building': 'N/A',
+         'building:adjacency': 'no',
+         'building:floor_type': 'N/A',
+         'building:gable_wall': 'no',
+         'building:level': 'N/A',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:roof_type': 'N/A',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:typology': 'N/A',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090674
+[(u'193090674', u'', u'2013-12-08 04:36:13.858000', 19335007)]
+
+ building_count 39
+da0eff2d-d8d8-46b9-a669-6a2cce288ee1
+osm_id 189649065
+retrieving data from main osm for way 189649065
+[(u'',)]
+changeset_upload 
+{'changeset': 18212887,
+ 'id': 189649065,
+ 'nd': [2002377672,
+        2002377678,
+        2002377562,
+        2002377573,
+        2002377593,
+        2485036003L,
+        2485036007L,
+        2002377605,
+        2002377628,
+        2002377627,
+        2002377672],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-06T14:03:18Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 189649065,
+ 'nd': [2002377672,
+        2002377678,
+        2002377562,
+        2002377573,
+        2002377593,
+        2485036003L,
+        2485036007L,
+        2002377605,
+        2002377628,
+        2002377627,
+        2002377672],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'health',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189649065
+[(u'189649065', u'', u'2013-12-08 04:36:15.153000', 19335007)]
+
+ building_count 40
+86535803-3a42-4048-b980-238906324bfa
+osm_id 193090750
+retrieving data from main osm for way 193090750
+[(u'',)]
+changeset_upload 
+{'changeset': 16362177,
+ 'id': 193090750,
+ 'nd': [2036131456,
+        2036131452,
+        2036131460,
+        2036131475,
+        2036131458,
+        2036131454,
+        2036131456],
+ 'tag': {'building': 'N/A',
+         'building:floor_type': 'N/A',
+         'building:level': 'N/A',
+         'building:roof_type': 'N/A',
+         'building:typology': 'N/A',
+         'building:use': 'N/A'},
+ 'timestamp': '2013-05-31T09:00:31Z',
+ 'uid': 1034219,
+ 'user': 'shrijana',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 193090750,
+ 'nd': [2036131456,
+        2036131452,
+        2036131460,
+        2036131475,
+        2036131458,
+        2036131454,
+        2036131456],
+ 'tag': {'building': 'N/A',
+         'building:adjacency': 'no',
+         'building:floor_type': 'N/A',
+         'building:gable_wall': 'no',
+         'building:level': 'N/A',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:roof_type': 'N/A',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:typology': 'N/A',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090750
+[(u'193090750', u'', u'2013-12-08 04:36:16.599000', 19335007)]
+
+ building_count 41
+7c9e1185-6029-4755-a8b3-bad503f0eed4
+osm_id 189649052
+retrieving data from main osm for way 189649052
+[(u'',)]
+changeset_upload 
+{'changeset': 17449849,
+ 'id': 189649052,
+ 'nd': [2002377493,
+        2427555792L,
+        2002377510,
+        2002377496,
+        2427555791L,
+        2002377505,
+        2002377493],
+ 'tag': {'alt_name': 'KLL',
+         'building': 'office',
+         'name': 'Kathmandu Living Labs',
+         'office': 'ngo',
+         'roof:material': 'enternit',
+         'roof:shape': 'slope',
+         'website': 'http://www.ktmlabs.org'},
+ 'timestamp': '2013-08-22T05:13:05Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 8}
+{'changeset': 19335007,
+ 'id': 189649052,
+ 'nd': [2002377493,
+        2427555792L,
+        2002377510,
+        2002377496,
+        2427555791L,
+        2002377505,
+        2002377493],
+ 'tag': {'alt_name': 'KLL',
+         'building': 'office',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'flexible',
+         'name': 'Kathmandu Living Labs',
+         'office': 'ngo',
+         'roof:material': 'enternit',
+         'roof:material:type': 'flexible',
+         'roof:shape': 'slope',
+         'shape:elevation': 'irregular',
+         'website': 'http://www.ktmlabs.org'},
+ 'version': 9}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189649052
+[(u'189649052', u'', u'2013-12-08 04:36:18.248000', 19335007)]
+
+ building_count 42
+f7ce39fe-6d68-440c-b65f-1a50b5fa6486
+osm_id 231526466
+retrieving data from main osm for way 231526466
+[(u'',)]
+changeset_upload 
+{'changeset': 17861623,
+ 'id': 231526466,
+ 'nd': [2460079082L,
+        2460079083L,
+        2460079084L,
+        2398967511L,
+        2398967510L,
+        2398967506L,
+        2398967507L,
+        2460079081L,
+        2460079082L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-16T06:13:46Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 231526466,
+ 'nd': [2460079082L,
+        2460079083L,
+        2460079084L,
+        2398967511L,
+        2398967510L,
+        2398967506L,
+        2398967507L,
+        2460079081L,
+        2460079082L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231526466
+[(u'231526466', u'', u'2013-12-08 04:36:19.599000', 19335007)]
+
+ building_count 43
+8b90b1a2-e030-40cd-a212-02f7be730baf
+osm_id 191546050
+retrieving data from main osm for way 191546050
+[(u'',)]
+changeset_upload 
+{'changeset': 13929707,
+ 'id': 191546050,
+ 'nd': [2021303073, 2021303071, 2021303067, 2021303069, 2021303073],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-19T09:59:18Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 191546050,
+ 'nd': [2021303073, 2021303071, 2021303067, 2021303069, 2021303073],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 191546050
+[(u'191546050', u'', u'2013-12-08 04:36:20.928000', 19335007)]
+
+ building_count 44
+20b1c2de-1a05-4c7a-a2cc-0e545e8f0237
+osm_id 193090748
+retrieving data from main osm for way 193090748
+[(u'',)]
+changeset_upload 
+{'changeset': 18246451,
+ 'id': 193090748,
+ 'nd': [2036131482,
+        2487994119L,
+        2487994120L,
+        2036131466,
+        2036131472,
+        2036131504,
+        2036131498,
+        2036131480,
+        2036131482],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-08T12:31:11Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 193090748,
+ 'nd': [2036131482,
+        2487994119L,
+        2487994120L,
+        2036131466,
+        2036131472,
+        2036131504,
+        2036131498,
+        2036131480,
+        2036131482],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090748
+[(u'193090748', u'', u'2013-12-08 04:36:22.506000', 19335007)]
+
+ building_count 45
+b127fbb8-3118-423b-9559-da82d422d1fe
+osm_id 193090703
+retrieving data from main osm for way 193090703
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090703,
+ 'nd': [2036131428, 2036131443, 2036131446, 2036131437, 2036131428],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:23Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090703,
+ 'nd': [2036131428, 2036131443, 2036131446, 2036131437, 2036131428],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090703
+[(u'193090703', u'', u'2013-12-08 04:36:23.853000', 19335007)]
+
+ building_count 46
+7d588c14-5293-40ae-a5ea-409d89fb6c4f
+osm_id 193090669
+retrieving data from main osm for way 193090669
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090669,
+ 'nd': [2036131420, 2036131424, 2036131430, 2036131422, 2036131420],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:22Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090669,
+ 'nd': [2036131420, 2036131424, 2036131430, 2036131422, 2036131420],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'yes',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090669
+[(u'193090669', u'', u'2013-12-08 04:36:25.281000', 19335007)]
+
+ building_count 47
+79403d5a-4fa7-455d-95da-6c00f8583be3
+osm_id 193090707
+retrieving data from main osm for way 193090707
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090707,
+ 'nd': [2036131406, 2036131418, 2036131426, 2036131414, 2036131406],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:23Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090707,
+ 'nd': [2036131406, 2036131418, 2036131426, 2036131414, 2036131406],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090707
+[(u'193090707', u'', u'2013-12-08 04:36:26.632000', 19335007)]
+
+ building_count 48
+0eab09c4-9b1a-4382-bb17-bddc7146d125
+osm_id 231293764
+retrieving data from main osm for way 231293764
+[(u'',)]
+changeset_upload 
+{'changeset': 17096853,
+ 'id': 231293764,
+ 'nd': [2396941792L, 2396941793L, 2396941791L, 2396941790L, 2396941792L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-07-26T05:13:34Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 231293764,
+ 'nd': [2396941792L, 2396941793L, 2396941791L, 2396941790L, 2396941792L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 231293764
+[(u'231293764', u'', u'2013-12-08 04:36:28.022000', 19335007)]
+
+ building_count 49
+0bfe23c2-b98d-4261-a9f3-4bbe4afa810a
+osm_id 236535678
+retrieving data from main osm for way 236535678
+[(u'',)]
+changeset_upload 
+{'changeset': 17669225,
+ 'id': 236535678,
+ 'nd': [2445589258L, 2445589270L, 2445589265L, 2445589252L, 2445589258L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T10:59:14Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236535678,
+ 'nd': [2445589258L, 2445589270L, 2445589265L, 2445589252L, 2445589258L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236535678
+[(u'236535678', u'', u'2013-12-08 04:36:29.281000', 19335007)]
+
+ building_count 50
+46475444-9b6c-4eee-8650-71493dfaa2f3
+osm_id 197902716
+retrieving data from main osm for way 197902716
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902716,
+ 'nd': [2081009725, 2081009751, 2081009746, 2081009721, 2081009725],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:34Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902716,
+ 'nd': [2081009725, 2081009751, 2081009746, 2081009721, 2081009725],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902716
+[(u'197902716', u'', u'2013-12-08 04:36:30.780000', 19335007)]
+
+ building_count 51
+ee72a3b1-d1cd-4fa4-8957-d9831726f596
+osm_id 205593162
+retrieving data from main osm for way 205593162
+[(u'',)]
+changeset_upload 
+{'changeset': 15036990,
+ 'id': 205593162,
+ 'nd': [2155659296L, 2155659299L, 2155659304L, 2155659300L, 2155659296L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-02-15T08:00:05Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 205593162,
+ 'nd': [2155659296L, 2155659299L, 2155659304L, 2155659300L, 2155659296L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 205593162
+[(u'205593162', u'', u'2013-12-08 04:36:32.119000', 19335007)]
+
+ building_count 52
+a18a3bb9-51f8-47fb-9ae4-b7729d504baa
+osm_id 191546063
+retrieving data from main osm for way 191546063
+[(u'',)]
+changeset_upload 
+{'changeset': 13929707,
+ 'id': 191546063,
+ 'nd': [2021303109,
+        2021303105,
+        2021303097,
+        2021303099,
+        2021303091,
+        2021303093,
+        2021303085,
+        2021303087,
+        2021303113,
+        2021303109],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-19T09:59:19Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 191546063,
+ 'nd': [2021303109,
+        2021303105,
+        2021303097,
+        2021303099,
+        2021303091,
+        2021303093,
+        2021303085,
+        2021303087,
+        2021303113,
+        2021303109],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 191546063
+[(u'191546063', u'', u'2013-12-08 04:36:33.498000', 19335007)]
+
+ building_count 53
+9491e456-b794-4a8f-9b52-34145759c0a3
+osm_id 192049649
+retrieving data from main osm for way 192049649
+[(u'',)]
+changeset_upload 
+{'changeset': 18216648,
+ 'id': 192049649,
+ 'nd': [2026094299,
+        2026094316,
+        2026094315,
+        2026094313,
+        2026094311,
+        2026094303,
+        2026094302,
+        2026094291,
+        2026094299],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-06T17:27:42Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 192049649,
+ 'nd': [2026094299,
+        2026094316,
+        2026094315,
+        2026094313,
+        2026094311,
+        2026094303,
+        2026094302,
+        2026094291,
+        2026094299],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192049649
+[(u'192049649', u'', u'2013-12-08 04:36:34.772000', 19335007)]
+
+ building_count 54
+b9284dc4-9781-47a4-a8f1-1cd6425056ef
+osm_id 238037350
+retrieving data from main osm for way 238037350
+[(u'',)]
+changeset_upload 
+{'changeset': 17845578,
+ 'id': 238037350,
+ 'nd': [2459058004L,
+        2459058001L,
+        2459057992L,
+        2459057988L,
+        2459057993L,
+        2459058004L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T08:59:25Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238037350,
+ 'nd': [2459058004L,
+        2459058001L,
+        2459057992L,
+        2459057988L,
+        2459057993L,
+        2459058004L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238037350
+[(u'238037350', u'', u'2013-12-08 04:36:36.042000', 19335007)]
+
+ building_count 55
+83171cbc-1e15-44fc-bd7f-420b874aa830
+osm_id 236535679
+retrieving data from main osm for way 236535679
+[(u'',)]
+changeset_upload 
+{'changeset': 17669225,
+ 'id': 236535679,
+ 'nd': [2445589236L, 2445589233L, 2445589227L, 2445589231L, 2445589236L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T10:59:14Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236535679,
+ 'nd': [2445589236L, 2445589233L, 2445589227L, 2445589231L, 2445589236L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236535679
+[(u'236535679', u'', u'2013-12-08 04:36:37.331000', 19335007)]
+
+ building_count 56
+a2715290-3465-490d-ba08-62ec55610594
+osm_id 205593157
+retrieving data from main osm for way 205593157
+[(u'',)]
+changeset_upload 
+{'changeset': 15036990,
+ 'id': 205593157,
+ 'nd': [2155659294L, 2155659290L, 2155659287L, 2155659288L, 2155659294L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-02-15T08:00:05Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 205593157,
+ 'nd': [2155659294L, 2155659290L, 2155659287L, 2155659288L, 2155659294L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 205593157
+[(u'205593157', u'', u'2013-12-08 04:36:38.623000', 19335007)]
+
+ building_count 57
+f3049dd5-97c7-4e2d-883e-38d8870aeaff
+osm_id 196060532
+retrieving data from main osm for way 196060532
+[(u'',)]
+changeset_upload 
+{'changeset': 18216792,
+ 'id': 196060532,
+ 'nd': [2064206051,
+        2485356684L,
+        2064206048,
+        2485356686L,
+        2485356680L,
+        2485356682L,
+        2064206045,
+        2064206046,
+        2064206044,
+        2064206047,
+        2064206049,
+        2064206050,
+        2064206051],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-06T17:35:29Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 196060532,
+ 'nd': [2064206051,
+        2485356684L,
+        2064206048,
+        2485356686L,
+        2485356680L,
+        2485356682L,
+        2064206045,
+        2064206046,
+        2064206044,
+        2064206047,
+        2064206049,
+        2064206050,
+        2064206051],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 196060532
+[(u'196060532', u'', u'2013-12-08 04:36:40.037000', 19335007)]
+
+ building_count 58
+d6eb5891-bf48-4b86-a089-7dcce201b8b9
+osm_id 205593165
+retrieving data from main osm for way 205593165
+[(u'',)]
+changeset_upload 
+{'changeset': 15036990,
+ 'id': 205593165,
+ 'nd': [2155659286L,
+        2155659284L,
+        2155659292L,
+        2155659295L,
+        2155659291L,
+        2155659293L,
+        2155659286L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-02-15T08:00:05Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 205593165,
+ 'nd': [2155659286L,
+        2155659284L,
+        2155659292L,
+        2155659295L,
+        2155659291L,
+        2155659293L,
+        2155659286L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 205593165
+[(u'205593165', u'', u'2013-12-08 04:36:41.344000', 19335007)]
+
+ building_count 59
+d9c9a207-67d6-4477-8c6f-394a39ac7d7f
+osm_id 197902841
+retrieving data from main osm for way 197902841
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902841,
+ 'nd': [2081009613, 2081009646, 2081009622, 2081009595, 2081009613],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:43Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902841,
+ 'nd': [2081009613, 2081009646, 2081009622, 2081009595, 2081009613],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902841
+[(u'197902841', u'', u'2013-12-08 04:36:42.777000', 19335007)]
+
+ building_count 60
+4413a760-c3b9-4794-af8c-3c94c5bc8470
+osm_id 205593164
+retrieving data from main osm for way 205593164
+[(u'',)]
+changeset_upload 
+{'changeset': 18216841,
+ 'id': 205593164,
+ 'nd': [2155659285L,
+        2485361459L,
+        2155659283L,
+        2155659280L,
+        2155659282L,
+        2155659279L,
+        2155659281L,
+        2155659285L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-06T17:38:06Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 205593164,
+ 'nd': [2155659285L,
+        2485361459L,
+        2155659283L,
+        2155659280L,
+        2155659282L,
+        2155659279L,
+        2155659281L,
+        2155659285L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 205593164
+[(u'205593164', u'', u'2013-12-08 04:36:45.393000', 19335007)]
+
+ building_count 61
+3d2f3268-958b-423d-956a-9c7d1fb12746
+osm_id 236535682
+retrieving data from main osm for way 236535682
+[(u'',)]
+changeset_upload 
+{'changeset': 17669225,
+ 'id': 236535682,
+ 'nd': [2445589246L, 2445589261L, 2445589254L, 2445589240L, 2445589246L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T10:59:14Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236535682,
+ 'nd': [2445589246L, 2445589261L, 2445589254L, 2445589240L, 2445589246L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236535682
+[(u'236535682', u'', u'2013-12-08 04:36:48.625000', 19335007)]
+
+ building_count 62
+3275d348-3a6c-4f4c-a512-2e8b00df05ce
+osm_id 192049639
+retrieving data from main osm for way 192049639
+[(u'',)]
+changeset_upload 
+{'changeset': 13982712,
+ 'id': 192049639,
+ 'nd': [2026094326, 2026094323, 2026094319, 2026094322, 2026094326],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-22T08:49:57Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192049639,
+ 'nd': [2026094326, 2026094323, 2026094319, 2026094322, 2026094326],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192049639
+[(u'192049639', u'', u'2013-12-08 04:36:50.450000', 19335007)]
+
+ building_count 63
+8bcedf4f-4b89-49c3-a0c8-a842fe3396bb
+osm_id 192614961
+retrieving data from main osm for way 192614961
+[(u'',)]
+changeset_upload 
+{'changeset': 14026692,
+ 'id': 192614961,
+ 'nd': [2031624243, 2031624244, 2031624242, 2031624241, 2031624243],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-25T11:25:55Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192614961,
+ 'nd': [2031624243, 2031624244, 2031624242, 2031624241, 2031624243],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192614961
+[(u'192614961', u'', u'2013-12-08 04:36:52.900000', 19335007)]
+
+ building_count 64
+8050756f-ca28-412c-b44d-1bce5b3680c6
+osm_id 237087220
+retrieving data from main osm for way 237087220
+[(u'',)]
+changeset_upload 
+{'changeset': 17730193,
+ 'id': 237087220,
+ 'nd': [2450378288L,
+        2450378289L,
+        2450378291L,
+        2450378290L,
+        2450378286L,
+        2450378287L,
+        2450378288L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-08T10:32:23Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237087220,
+ 'nd': [2450378288L,
+        2450378289L,
+        2450378291L,
+        2450378290L,
+        2450378286L,
+        2450378287L,
+        2450378288L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237087220
+[(u'237087220', u'', u'2013-12-08 04:36:54.249000', 19335007)]
+
+ building_count 65
+8694e574-cb4a-4ca4-86e7-be003fc5a425
+osm_id 237062746
+retrieving data from main osm for way 237062746
+[(u'',)]
+changeset_upload 
+{'changeset': 17726789,
+ 'id': 237062746,
+ 'nd': [2450167941L,
+        2450167943L,
+        2450167950L,
+        2450167946L,
+        2450167948L,
+        2450167945L,
+        2450167938L,
+        2450167940L,
+        2450167941L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-08T04:56:06Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237062746,
+ 'nd': [2450167941L,
+        2450167943L,
+        2450167950L,
+        2450167946L,
+        2450167948L,
+        2450167945L,
+        2450167938L,
+        2450167940L,
+        2450167941L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237062746
+[(u'237062746', u'', u'2013-12-08 04:36:55.538000', 19335007)]
+
+ building_count 66
+0526e258-4f92-46ca-8415-d0b738929d95
+osm_id 192049619
+retrieving data from main osm for way 192049619
+[(u'',)]
+changeset_upload 
+{'changeset': 13982712,
+ 'id': 192049619,
+ 'nd': [2026094274,
+        2026094283,
+        2026094287,
+        2026094295,
+        2026094290,
+        2026094300,
+        2026094294,
+        2026094286,
+        2026094281,
+        2026094275,
+        2026094279,
+        2026094272,
+        2026094274],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-22T08:49:56Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192049619,
+ 'nd': [2026094274,
+        2026094283,
+        2026094287,
+        2026094295,
+        2026094290,
+        2026094300,
+        2026094294,
+        2026094286,
+        2026094281,
+        2026094275,
+        2026094279,
+        2026094272,
+        2026094274],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192049619
+[(u'192049619', u'', u'2013-12-08 04:36:56.859000', 19335007)]
+
+ building_count 67
+7c46a08c-3058-4efb-b008-9c8129ec43a1
+osm_id 192183439
+retrieving data from main osm for way 192183439
+[(u'',)]
+changeset_upload 
+{'changeset': 15453323,
+ 'id': 192183439,
+ 'nd': [2027499523,
+        2027499521,
+        2027499517,
+        2027499519,
+        2027499536,
+        2027499532,
+        2027499523],
+ 'tag': {'building': 'N/A',
+         'building:floor_type': 'N/A',
+         'building:level': 'N/A',
+         'building:roof_type': 'N/A',
+         'building:typology': 'N/A',
+         'building:use': 'N/A',
+         'name': 'Thamseruku Trekking',
+         'shop': 'travel_agency'},
+ 'timestamp': '2013-03-22T11:39:20Z',
+ 'uid': 864593,
+ 'user': 'Sazal(Solaris)',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 192183439,
+ 'nd': [2027499523,
+        2027499521,
+        2027499517,
+        2027499519,
+        2027499536,
+        2027499532,
+        2027499523],
+ 'tag': {'building': 'N/A',
+         'building:adjacency': 'no',
+         'building:floor_type': 'N/A',
+         'building:gable_wall': 'no',
+         'building:level': 'N/A',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:roof_type': 'N/A',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_lime_surkhi_mortar',
+         'building:typology': 'N/A',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'name': 'Thamseruku Trekking',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shop': 'travel_agency'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183439
+[(u'192183439', u'', u'2013-12-08 04:36:58.277000', 19335007)]
+
+ building_count 68
+37ab1375-27fe-4dca-858e-509611507d39
+osm_id 192183433
+retrieving data from main osm for way 192183433
+[(u'',)]
+changeset_upload 
+{'changeset': 13994993,
+ 'id': 192183433,
+ 'nd': [2027499538, 2027499534, 2027499525, 2027499526, 2027499538],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-23T06:41:49Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192183433,
+ 'nd': [2027499538, 2027499534, 2027499525, 2027499526, 2027499538],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183433
+[(u'192183433', u'', u'2013-12-08 04:36:59.591000', 19335007)]
+
+ building_count 69
+bfaaf35e-1a7f-4fd4-970b-c96b8b17ff53
+osm_id 238037351
+retrieving data from main osm for way 238037351
+[(u'',)]
+changeset_upload 
+{'changeset': 17845578,
+ 'id': 238037351,
+ 'nd': [2459058002L,
+        2459057997L,
+        2459058003L,
+        2459058007L,
+        2459058005L,
+        2459057996L,
+        2459058002L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T08:59:25Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238037351,
+ 'nd': [2459058002L,
+        2459057997L,
+        2459058003L,
+        2459058007L,
+        2459058005L,
+        2459057996L,
+        2459058002L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238037351
+[(u'238037351', u'', u'2013-12-08 04:37:00.939000', 19335007)]
+
+ building_count 70
+832d2c30-4173-48e2-a8d7-ef5123dcc880
+overpass_query [out:json];way["kll:oid"="7-10-06-4"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%227-10-06-4%22%5D%3Bout%20ids%3B
+osm_id 240846941
+retrieving data from main osm for way 240846941
+[(u'',)]
+changeset_upload 
+{'changeset': 19334995,
+ 'id': 240846941,
+ 'nd': [2485361460L,
+        2485361458L,
+        2485361457L,
+        2155659283L,
+        2485361459L,
+        2485361460L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'kll:oid': '7-10-06-4',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'timestamp': '2013-12-08T04:32:15Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 4}
+Data exists for way 240846941
+
+ building_count 71
+6545a3bc-4590-414e-9aa8-b4a81a6faf27
+osm_id 192049623
+retrieving data from main osm for way 192049623
+[(u'',)]
+changeset_upload 
+{'changeset': 19334995,
+ 'id': 192049623,
+ 'nd': [2026094304, 2026094293, 2026094277, 2026094282, 2026094304],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'timestamp': '2013-12-08T04:32:17Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+Data exists for way 192049623
+
+ building_count 72
+9537b306-7e75-4f50-9dfa-0cfa261024c6
+osm_id 192049636
+retrieving data from main osm for way 192049636
+[(u'',)]
+changeset_upload 
+{'changeset': 19334995,
+ 'id': 192049636,
+ 'nd': [2026094318, 2026094310, 2026094297, 2026094312, 2026094318],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'timestamp': '2013-12-08T04:32:18Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+Data exists for way 192049636
+
+ building_count 73
+d3f5f660-daf4-4243-92c3-9096494fa474
+overpass_query [out:json];way["kll:oid"="7-10-06-3"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%227-10-06-3%22%5D%3Bout%20ids%3B
+osm_id 240842814
+retrieving data from main osm for way 240842814
+[(u'',)]
+changeset_upload 
+{'changeset': 19334995,
+ 'id': 240842814,
+ 'nd': [2485329553L,
+        2485329564L,
+        2485329562L,
+        2485329566L,
+        2485329560L,
+        2485329555L,
+        2485329558L,
+        2485329551L,
+        2485329553L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'kll:oid': '7-10-06-3',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'timestamp': '2013-12-08T04:32:20Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 3}
+Data exists for way 240842814
+
+ building_count 74
+5b441061-b296-494a-8060-0577716e9f88
+osm_id 197902720
+retrieving data from main osm for way 197902720
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902720,
+ 'nd': [2081009886, 2081009919, 2081009913, 2081009880, 2081009886],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:34Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902720,
+ 'nd': [2081009886, 2081009919, 2081009913, 2081009880, 2081009886],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902720
+[(u'197902720', u'', u'2013-12-08 04:37:06.583000', 19335007)]
+
+ building_count 75
+96354477-91e0-48ae-b0ac-26d17c63c0e6
+osm_id 237062736
+retrieving data from main osm for way 237062736
+[(u'',)]
+changeset_upload 
+{'changeset': 17726789,
+ 'id': 237062736,
+ 'nd': [2450167925L,
+        2450167922L,
+        2450167923L,
+        2450167926L,
+        2450167927L,
+        2450167933L,
+        2450167930L,
+        2450167929L,
+        2450167928L,
+        2450167924L,
+        2450167925L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-08T04:56:05Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237062736,
+ 'nd': [2450167925L,
+        2450167922L,
+        2450167923L,
+        2450167926L,
+        2450167927L,
+        2450167933L,
+        2450167930L,
+        2450167929L,
+        2450167928L,
+        2450167924L,
+        2450167925L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237062736
+[(u'237062736', u'', u'2013-12-08 04:37:07.849000', 19335007)]
+
+ building_count 76
+03bf6cf2-f6f4-4b8a-8a9f-b2fdf9760c90
+osm_id 238944060
+retrieving data from main osm for way 238944060
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944060,
+ 'nd': [2467538250L, 2467538245L, 2467538244L, 2467538247L, 2467538250L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:39Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944060,
+ 'nd': [2467538250L, 2467538245L, 2467538244L, 2467538247L, 2467538250L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall_irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944060
+[(u'238944060', u'', u'2013-12-08 04:37:09.226000', 19335007)]
+
+ building_count 77
+61efc6ac-4086-4a91-9c0a-96d1fcd57df4
+osm_id 238944055
+retrieving data from main osm for way 238944055
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944055,
+ 'nd': [2467538260L, 2467538255L, 2467538246L, 2467538249L, 2467538260L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:39Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944055,
+ 'nd': [2467538260L, 2467538255L, 2467538246L, 2467538249L, 2467538260L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944055
+[(u'238944055', u'', u'2013-12-08 04:37:10.619000', 19335007)]
+
+ building_count 78
+6af30d9d-65f5-4a45-8601-5fb5e6a0c29e
+osm_id 189652489
+retrieving data from main osm for way 189652489
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 189652489,
+ 'nd': [2002410074, 2002410087, 2002410085, 2002410086, 2002410074],
+ 'tag': {'building': 'commercial'},
+ 'timestamp': '2012-11-18T18:53:11Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 189652489,
+ 'nd': [2002410074, 2002410087, 2002410085, 2002410086, 2002410074],
+ 'tag': {'building': 'commercial',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '6',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'yes',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189652489
+[(u'189652489', u'', u'2013-12-08 04:37:12.096000', 19335007)]
+
+ building_count 79
+2336e8e1-a7ac-4ea2-9fa1-8a1a5ee48790
+osm_id 189652491
+retrieving data from main osm for way 189652491
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 189652491,
+ 'nd': [2002410075, 2002410077, 2002410076, 2002410078, 2002410075],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:17Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 189652491,
+ 'nd': [2002410075, 2002410077, 2002410076, 2002410078, 2002410075],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189652491
+[(u'189652491', u'', u'2013-12-08 04:37:13.398000', 19335007)]
+
+ building_count 80
+28204bb7-3ee5-4ff2-b7ae-f8a93240218d
+osm_id 238944063
+retrieving data from main osm for way 238944063
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944063,
+ 'nd': [2467538261L,
+        2467538256L,
+        2467538251L,
+        2467538253L,
+        2467538248L,
+        2467538254L,
+        2467538261L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:40Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944063,
+ 'nd': [2467538261L,
+        2467538256L,
+        2467538251L,
+        2467538253L,
+        2467538248L,
+        2467538254L,
+        2467538261L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944063
+[(u'238944063', u'', u'2013-12-08 04:37:14.733000', 19335007)]
+
+ building_count 81
+36db8ffe-50f9-4fd5-bdcd-adc229c1eccf
+osm_id 238944056
+retrieving data from main osm for way 238944056
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944056,
+ 'nd': [2467538269L, 2467538268L, 2467538258L, 2467538265L, 2467538269L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:39Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944056,
+ 'nd': [2467538269L, 2467538268L, 2467538258L, 2467538265L, 2467538269L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944056
+[(u'238944056', u'', u'2013-12-08 04:37:15.994000', 19335007)]
+
+ building_count 82
+7cbc918e-5ddd-4e59-b5e2-6bf147c5d818
+osm_id 189652490
+retrieving data from main osm for way 189652490
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 189652490,
+ 'nd': [2002410079,
+        2002410080,
+        2002410083,
+        2002410082,
+        2002410081,
+        2002410084,
+        2002410079],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:21Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 189652490,
+ 'nd': [2002410079,
+        2002410080,
+        2002410083,
+        2002410082,
+        2002410081,
+        2002410084,
+        2002410079],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 189652490
+[(u'189652490', u'', u'2013-12-08 04:37:17.430000', 19335007)]
+
+ building_count 83
+39120be6-7e3b-42c8-a39c-a9eb90c449ed
+osm_id 238043786
+retrieving data from main osm for way 238043786
+[(u'',)]
+changeset_upload 
+{'changeset': 17846746,
+ 'id': 238043786,
+ 'nd': [2459111520L,
+        2459111516L,
+        2459111512L,
+        2459111513L,
+        2459111517L,
+        2459111515L,
+        2459111520L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T10:05:57Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238043786,
+ 'nd': [2459111520L,
+        2459111516L,
+        2459111512L,
+        2459111513L,
+        2459111517L,
+        2459111515L,
+        2459111520L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238043786
+[(u'238043786', u'', u'2013-12-08 04:37:18.831000', 19335007)]
+
+ building_count 84
+5e86a43f-5e10-4f32-bbaa-47fe6660846e
+osm_id 238944064
+retrieving data from main osm for way 238944064
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944064,
+ 'nd': [2467538264L,
+        2467538263L,
+        2467538267L,
+        2467538266L,
+        2467538262L,
+        2467538259L,
+        2467538252L,
+        2467538257L,
+        2467538264L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:40Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944064,
+ 'nd': [2467538264L,
+        2467538263L,
+        2467538267L,
+        2467538266L,
+        2467538262L,
+        2467538259L,
+        2467538252L,
+        2467538257L,
+        2467538264L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944064
+[(u'238944064', u'', u'2013-12-08 04:37:20.171000', 19335007)]
+
+ building_count 85
+9374f15b-4510-4c4d-aa0d-a768801c671d
+osm_id 236702269
+retrieving data from main osm for way 236702269
+[(u'',)]
+changeset_upload 
+{'changeset': 17684636,
+ 'id': 236702269,
+ 'nd': [2446940645L, 2446940651L, 2446940662L, 2446940656L, 2446940645L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T10:06:21Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236702269,
+ 'nd': [2446940645L, 2446940651L, 2446940662L, 2446940656L, 2446940645L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702269
+[(u'236702269', u'', u'2013-12-08 04:37:21.514000', 19335007)]
+
+ building_count 86
+a6357b43-bdee-49d1-aa3e-8b6154da92c2
+osm_id 238946738
+retrieving data from main osm for way 238946738
+[(u'',)]
+changeset_upload 
+{'changeset': 17971955,
+ 'id': 238946738,
+ 'nd': [2467566294L, 2467566292L, 2467566291L, 2467566293L, 2467566294L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T11:28:44Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238946738,
+ 'nd': [2467566294L, 2467566292L, 2467566291L, 2467566293L, 2467566294L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238946738
+[(u'238946738', u'', u'2013-12-08 04:37:22.872000', 19335007)]
+
+ building_count 87
+dc3b21d2-4e5c-48e1-870c-d370a2927024
+osm_id 236702238
+retrieving data from main osm for way 236702238
+[(u'',)]
+changeset_upload 
+{'changeset': 18227970,
+ 'id': 236702238,
+ 'nd': [2486277101L, 2446940653L, 2446940643L, 2446940636L, 2486277101L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-07T11:34:14Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 236702238,
+ 'nd': [2486277101L, 2446940653L, 2446940643L, 2446940636L, 2486277101L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '5',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall_irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702238
+[(u'236702238', u'', u'2013-12-08 04:37:24.283000', 19335007)]
+
+ building_count 88
+1277f85e-b0f9-4ccf-8aef-9e164c8b1733
+osm_id 190954809
+retrieving data from main osm for way 190954809
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954809,
+ 'nd': [2015436207, 2015436261, 2015436227, 2015436175, 2015436207],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:17Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954809,
+ 'nd': [2015436207, 2015436261, 2015436227, 2015436175, 2015436207],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954809
+[(u'190954809', u'', u'2013-12-08 04:37:25.656000', 19335007)]
+
+ building_count 89
+384fbe7d-4d87-4633-9a55-7464a798b95f
+osm_id 190954868
+retrieving data from main osm for way 190954868
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954868,
+ 'nd': [2015437109, 2015437082, 2015437054, 2015437078, 2015437109],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:11Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954868,
+ 'nd': [2015437109, 2015437082, 2015437054, 2015437078, 2015437109],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954868
+[(u'190954868', u'', u'2013-12-08 04:37:27.095000', 19335007)]
+
+ building_count 90
+3e6abe57-9150-4568-b7d9-252d69dda3dc
+osm_id 190954783
+retrieving data from main osm for way 190954783
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954783,
+ 'nd': [2015436292, 2015436254, 2015436276, 2015436315, 2015436292],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:10Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954783,
+ 'nd': [2015436292, 2015436254, 2015436276, 2015436315, 2015436292],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954783
+[(u'190954783', u'', u'2013-12-08 04:37:28.406000', 19335007)]
+
+ building_count 91
+463e2dd4-852a-42e8-b413-cba661f1f9bd
+osm_id 238045995
+retrieving data from main osm for way 238045995
+[(u'',)]
+changeset_upload 
+{'changeset': 17847157,
+ 'id': 238045995,
+ 'nd': [2459133555L,
+        2459133554L,
+        2459133547L,
+        2459133546L,
+        2459133542L,
+        2459133544L,
+        2459133555L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T10:30:43Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238045995,
+ 'nd': [2459133555L,
+        2459133554L,
+        2459133547L,
+        2459133546L,
+        2459133542L,
+        2459133544L,
+        2459133555L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '7',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238045995
+[(u'238045995', u'', u'2013-12-08 04:37:29.775000', 19335007)]
+
+ building_count 92
+81cd6b8c-b775-49bd-b9f4-8ae7700b2bbf
+osm_id 190954966
+retrieving data from main osm for way 190954966
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954966,
+ 'nd': [2015436294,
+        2015436217,
+        2015436200,
+        2015436214,
+        2015436201,
+        2015436211,
+        2015436199,
+        2015436242,
+        2015436294],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:24Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954966,
+ 'nd': [2015436294,
+        2015436217,
+        2015436200,
+        2015436214,
+        2015436201,
+        2015436211,
+        2015436199,
+        2015436242,
+        2015436294],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954966
+[(u'190954966', u'', u'2013-12-08 04:37:31.176000', 19335007)]
+
+ building_count 93
+3647a508-fef1-4e25-9b2e-11f00c6b80f0
+osm_id 238045996
+retrieving data from main osm for way 238045996
+[(u'',)]
+changeset_upload 
+{'changeset': 18227970,
+ 'id': 238045996,
+ 'nd': [2459133549L, 2459133548L, 2459133540L, 2459133543L, 2459133549L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-07T11:34:14Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 238045996,
+ 'nd': [2459133549L, 2459133548L, 2459133540L, 2459133543L, 2459133549L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238045996
+[(u'238045996', u'', u'2013-12-08 04:37:32.579000', 19335007)]
+
+ building_count 94
+eb95f853-5cbd-46f4-83b5-4c47c03bcf8e
+osm_id 190954908
+retrieving data from main osm for way 190954908
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954908,
+ 'nd': [2015436243,
+        2015436222,
+        2015436193,
+        2015436204,
+        2015436173,
+        2015436186,
+        2015436243],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:22Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954908,
+ 'nd': [2015436243,
+        2015436222,
+        2015436193,
+        2015436204,
+        2015436173,
+        2015436186,
+        2015436243],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954908
+[(u'190954908', u'', u'2013-12-08 04:37:33.898000', 19335007)]
+
+ building_count 95
+1380e64c-4515-409b-8719-8be1a1eb902c
+osm_id 236702241
+retrieving data from main osm for way 236702241
+[(u'',)]
+changeset_upload 
+{'changeset': 17684636,
+ 'id': 236702241,
+ 'nd': [2446940665L, 2446940652L, 2446940654L, 2446940666L, 2446940665L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T10:06:19Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236702241,
+ 'nd': [2446940665L, 2446940652L, 2446940654L, 2446940666L, 2446940665L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702241
+[(u'236702241', u'', u'2013-12-08 04:37:35.219000', 19335007)]
+
+ building_count 96
+d953fb0c-396e-4c7e-8f3b-3e8c63fe0b6d
+osm_id 190954789
+retrieving data from main osm for way 190954789
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954789,
+ 'nd': [2015437153, 2015437121, 2015437114, 2015437139, 2015437153],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:18Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954789,
+ 'nd': [2015437153, 2015437121, 2015437114, 2015437139, 2015437153],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'education',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954789
+[(u'190954789', u'', u'2013-12-08 04:37:36.493000', 19335007)]
+
+ building_count 97
+599c9387-3080-41fa-9cdb-4c5c4618426b
+osm_id 236702262
+retrieving data from main osm for way 236702262
+[(u'',)]
+changeset_upload 
+{'changeset': 18227970,
+ 'id': 236702262,
+ 'nd': [2446940632L,
+        2446940629L,
+        2486277095L,
+        2486277094L,
+        2446940614L,
+        2446940618L,
+        2486277099L,
+        2486277097L,
+        2446940632L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-07T11:34:15Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 236702262,
+ 'nd': [2446940632L,
+        2446940629L,
+        2486277095L,
+        2486277094L,
+        2446940614L,
+        2446940618L,
+        2486277099L,
+        2486277097L,
+        2446940632L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702262
+[(u'236702262', u'', u'2013-12-08 04:37:37.738000', 19335007)]
+
+ building_count 98
+eacdfc44-2758-4310-9319-4c0314a82ca0
+osm_id 237626910
+retrieving data from main osm for way 237626910
+[(u'',)]
+changeset_upload 
+{'changeset': 17794596,
+ 'id': 237626910,
+ 'nd': [2455075099L, 2455075119L, 2455075106L, 2455075095L, 2455075099L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-12T07:16:11Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237626910,
+ 'nd': [2455075099L, 2455075119L, 2455075106L, 2455075095L, 2455075099L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237626910
+[(u'237626910', u'', u'2013-12-08 04:37:39.059000', 19335007)]
+
+ building_count 99
+b98143ca-b496-4602-8321-f9f28aad76c5
+osm_id 190954794
+retrieving data from main osm for way 190954794
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954794,
+ 'nd': [2015435946, 2015435924, 2015435926, 2015435949, 2015435946],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:10Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954794,
+ 'nd': [2015435946, 2015435924, 2015435926, 2015435949, 2015435946],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954794
+[(u'190954794', u'', u'2013-12-08 04:37:40.487000', 19335007)]
+
+ building_count 100
+14a7d662-02c9-4b95-aa90-8412d828fd3b
+osm_id 198880153
+retrieving data from main osm for way 198880153
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 198880153,
+ 'nd': [2089613962,
+        2089613959,
+        2467538207L,
+        2467538206L,
+        2467538205L,
+        2089613953,
+        2089613956,
+        2089613962],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:40Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 198880153,
+ 'nd': [2089613962,
+        2089613959,
+        2467538207L,
+        2467538206L,
+        2467538205L,
+        2089613953,
+        2089613956,
+        2089613962],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 198880153
+[(u'198880153', u'', u'2013-12-08 04:37:41.995000', 19335007)]
+
+ building_count 101
+0807de13-7b6a-46f9-9be1-7f2404ab6204
+osm_id 238944061
+retrieving data from main osm for way 238944061
+[(u'',)]
+changeset_upload 
+{'changeset': 18227970,
+ 'id': 238944061,
+ 'nd': [2467538214L,
+        2467538213L,
+        2486277072L,
+        2486277070L,
+        2467538209L,
+        2467538210L,
+        2467538214L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-07T11:34:15Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 238944061,
+ 'nd': [2467538214L,
+        2467538213L,
+        2486277072L,
+        2486277070L,
+        2467538209L,
+        2467538210L,
+        2467538214L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944061
+[(u'238944061', u'', u'2013-12-08 04:37:43.633000', 19335007)]
+
+ building_count 102
+e3f59735-4aa7-4730-a1e0-f55a6732726b
+osm_id 190954796
+retrieving data from main osm for way 190954796
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954796,
+ 'nd': [2015437019, 2015436976, 2015436969, 2015436990, 2015437019],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:12Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954796,
+ 'nd': [2015437019, 2015436976, 2015436969, 2015436990, 2015437019],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954796
+[(u'190954796', u'', u'2013-12-08 04:37:45.110000', 19335007)]
+
+ building_count 103
+bd184f83-8250-4091-8da2-b56b16a0234e
+osm_id 238946741
+retrieving data from main osm for way 238946741
+[(u'',)]
+changeset_upload 
+{'changeset': 17971955,
+ 'id': 238946741,
+ 'nd': [2467566285L, 2467566286L, 2467566284L, 2467566283L, 2467566285L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T11:28:44Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238946741,
+ 'nd': [2467566285L, 2467566286L, 2467566284L, 2467566283L, 2467566285L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238946741
+[(u'238946741', u'', u'2013-12-08 04:37:46.465000', 19335007)]
+
+ building_count 104
+4f7ca9d9-5ead-49f5-9093-33769d54c76e
+osm_id 236702247
+retrieving data from main osm for way 236702247
+[(u'',)]
+changeset_upload 
+{'changeset': 17684636,
+ 'id': 236702247,
+ 'nd': [2446940617L, 2446940625L, 2446940635L, 2446940626L, 2446940617L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T10:06:19Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236702247,
+ 'nd': [2446940617L, 2446940625L, 2446940635L, 2446940626L, 2446940617L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702247
+[(u'236702247', u'', u'2013-12-08 04:37:47.869000', 19335007)]
+
+ building_count 105
+77ab140d-d5f7-4b71-9bae-f725a6bfca25
+osm_id 190954888
+retrieving data from main osm for way 190954888
+[(u'',)]
+changeset_upload 
+{'changeset': 14474512,
+ 'id': 190954888,
+ 'nd': [2015435991,
+        2015435964,
+        2015435942,
+        2015435952,
+        2015435944,
+        2089613978,
+        2015435991],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-31T08:16:50Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 190954888,
+ 'nd': [2015435991,
+        2015435964,
+        2015435942,
+        2015435952,
+        2015435944,
+        2089613978,
+        2015435991],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954888
+[(u'190954888', u'', u'2013-12-08 04:37:49.521000', 19335007)]
+
+ building_count 106
+38877e97-112f-4df1-92d2-b92e601f0e27
+osm_id 204639033
+retrieving data from main osm for way 204639033
+[(u'',)]
+changeset_upload 
+{'changeset': 14954180,
+ 'id': 204639033,
+ 'nd': [2146316219, 2146316221, 2146316232, 2146316228, 2146316219],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-02-08T10:12:36Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 204639033,
+ 'nd': [2146316219, 2146316221, 2146316232, 2146316228, 2146316219],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'flexible',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 204639033
+[(u'204639033', u'', u'2013-12-08 04:37:50.848000', 19335007)]
+
+ building_count 107
+93924069-8043-44bc-a330-a446632f8f09
+osm_id 190954824
+retrieving data from main osm for way 190954824
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954824,
+ 'nd': [2015435994, 2015435960, 2015435974, 2015436018, 2015435994],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:15Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954824,
+ 'nd': [2015435994, 2015435960, 2015435974, 2015436018, 2015435994],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954824
+[(u'190954824', u'', u'2013-12-08 04:37:52.697000', 19335007)]
+
+ building_count 108
+e7c690f3-9273-4375-b1a7-0537de224ae9
+osm_id 236702251
+retrieving data from main osm for way 236702251
+[(u'',)]
+changeset_upload 
+{'changeset': 17684636,
+ 'id': 236702251,
+ 'nd': [2446940657L, 2446940649L, 2446940642L, 2446940647L, 2446940657L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-05T10:06:20Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 236702251,
+ 'nd': [2446940657L, 2446940649L, 2446940642L, 2446940647L, 2446940657L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702251
+[(u'236702251', u'', u'2013-12-08 04:37:53.976000', 19335007)]
+
+ building_count 109
+3a9f9258-e989-4ebc-8040-bb6fa36199fe
+osm_id 190954830
+retrieving data from main osm for way 190954830
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954830,
+ 'nd': [2015436055, 2015436023, 2015436044, 2015436089, 2015436055],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:10Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954830,
+ 'nd': [2015436055, 2015436023, 2015436044, 2015436089, 2015436055],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954830
+[(u'190954830', u'', u'2013-12-08 04:37:55.340000', 19335007)]
+
+ building_count 110
+828f80c7-09e3-4d09-9826-2395b7d61d9b
+osm_id 190954891
+retrieving data from main osm for way 190954891
+[(u'',)]
+changeset_upload 
+{'changeset': 13922632,
+ 'id': 190954891,
+ 'nd': [2015436077,
+        2015436112,
+        2015436100,
+        2015436138,
+        2015436160,
+        2015436098,
+        2015436077],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-18T18:53:22Z',
+ 'uid': 866103,
+ 'user': 'Ryan Sommerville',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 190954891,
+ 'nd': [2015436077,
+        2015436112,
+        2015436100,
+        2015436138,
+        2015436160,
+        2015436098,
+        2015436077],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954891
+[(u'190954891', u'', u'2013-12-08 04:37:56.748000', 19335007)]
+
+ building_count 111
+eca8f2fa-fa8d-4b87-88ec-c05f0fad20a2
+osm_id 238944065
+retrieving data from main osm for way 238944065
+[(u'',)]
+changeset_upload 
+{'changeset': 17971476,
+ 'id': 238944065,
+ 'nd': [2467538241L,
+        2467538240L,
+        2467538233L,
+        2467538229L,
+        2467538225L,
+        2467538227L,
+        2467538228L,
+        2467538232L,
+        2467538241L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-22T10:59:40Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238944065,
+ 'nd': [2467538241L,
+        2467538240L,
+        2467538233L,
+        2467538229L,
+        2467538225L,
+        2467538227L,
+        2467538228L,
+        2467538232L,
+        2467538241L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238944065
+[(u'238944065', u'', u'2013-12-08 04:37:58.088000', 19335007)]
+
+ building_count 112
+10c86bd7-947c-4ddc-b9f6-696a9d9bf031
+osm_id 196060475
+retrieving data from main osm for way 196060475
+[(u'',)]
+changeset_upload 
+{'changeset': 14256636,
+ 'id': 196060475,
+ 'nd': [2064206068,
+        2064206066,
+        2064206063,
+        2064206065,
+        2064206062,
+        2064206064,
+        2064206068],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-13T06:19:05Z',
+ 'uid': 1060238,
+ 'user': 'LenainKtm',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 196060475,
+ 'nd': [2064206068,
+        2064206066,
+        2064206063,
+        2064206065,
+        2064206062,
+        2064206064,
+        2064206068],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 196060475
+[(u'196060475', u'', u'2013-12-08 04:37:59.408000', 19335007)]
+
+ building_count 113
+69b1cd53-03c1-4174-b4fd-9fb0957ad810
+osm_id 238043777
+retrieving data from main osm for way 238043777
+[(u'',)]
+changeset_upload 
+{'changeset': 17846746,
+ 'id': 238043777,
+ 'nd': [2459111528L, 2459111525L, 2459111521L, 2459111523L, 2459111528L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T10:05:56Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238043777,
+ 'nd': [2459111528L, 2459111525L, 2459111521L, 2459111523L, 2459111528L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238043777
+[(u'238043777', u'', u'2013-12-08 04:38:00.719000', 19335007)]
+
+ building_count 114
+ace8649c-ab8b-40d3-95f3-fd7655307c61
+osm_id 237626968
+retrieving data from main osm for way 237626968
+[(u'',)]
+changeset_upload 
+{'changeset': 17794596,
+ 'id': 237626968,
+ 'nd': [2455075089L, 2455075103L, 2455075097L, 2455075083L, 2455075089L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-12T07:16:13Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237626968,
+ 'nd': [2455075089L, 2455075103L, 2455075097L, 2455075083L, 2455075089L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237626968
+[(u'237626968', u'', u'2013-12-08 04:38:01.955000', 19335007)]
+
+ building_count 115
+ea6f23df-60f3-4834-9503-ab4cb5329075
+osm_id 238150496
+retrieving data from main osm for way 238150496
+[(u'',)]
+changeset_upload 
+{'changeset': 17861205,
+ 'id': 238150496,
+ 'nd': [2460059696L, 2460059693L, 2460059690L, 2460059692L, 2460059696L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-16T05:23:01Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238150496,
+ 'nd': [2460059696L, 2460059693L, 2460059690L, 2460059692L, 2460059696L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238150496
+[(u'238150496', u'', u'2013-12-08 04:38:03.280000', 19335007)]
+
+ building_count 116
+706265e6-8d69-461d-9c2e-50b53fc5f452
+osm_id 198429740
+retrieving data from main osm for way 198429740
+[(u'',)]
+changeset_upload 
+{'changeset': 14436841,
+ 'id': 198429740,
+ 'nd': [2085592103, 2085592099, 2085592098, 2085592100, 2085592103],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-28T10:55:35Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 198429740,
+ 'nd': [2085592103, 2085592099, 2085592098, 2085592100, 2085592103],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 198429740
+[(u'198429740', u'', u'2013-12-08 04:38:04.667000', 19335007)]
+
+ building_count 117
+ea7f4863-0696-453e-8634-4b04c68d3ad0
+osm_id 237627033
+retrieving data from main osm for way 237627033
+[(u'',)]
+changeset_upload 
+{'changeset': 17794596,
+ 'id': 237627033,
+ 'nd': [2455075128L, 2455075155L, 2455075146L, 2455075117L, 2455075128L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-12T07:16:15Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237627033,
+ 'nd': [2455075128L, 2455075155L, 2455075146L, 2455075117L, 2455075128L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237627033
+[(u'237627033', u'', u'2013-12-08 04:38:05.937000', 19335007)]
+
+ building_count 118
+4afd51b9-b53d-4ec8-9178-2ef6550c62b2
+osm_id 190954764
+retrieving data from main osm for way 190954764
+[(u'',)]
+changeset_upload 
+{'changeset': 17669610,
+ 'id': 190954764,
+ 'nd': [2015435873, 2015435870, 2015435874, 2445625949L, 2015435873],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-04T11:22:26Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 314}
+{'changeset': 19335007,
+ 'id': 190954764,
+ 'nd': [2015435873, 2015435870, 2015435874, 2445625949L, 2015435873],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 315}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 190954764
+[(u'190954764', u'', u'2013-12-08 04:38:07.289000', 19335007)]
+
+ building_count 119
+cabb5418-b06d-49b0-b037-84558ee8c0e4
+osm_id 237626983
+retrieving data from main osm for way 237626983
+[(u'',)]
+changeset_upload 
+{'changeset': 17794596,
+ 'id': 237626983,
+ 'nd': [2455075115L, 2455075126L, 2455075150L, 2455075139L, 2455075115L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-12T07:16:13Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237626983,
+ 'nd': [2455075115L, 2455075126L, 2455075150L, 2455075139L, 2455075115L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237626983
+[(u'237626983', u'', u'2013-12-08 04:38:08.561000', 19335007)]
+
+ building_count 120
+307fd937-8ca7-437c-ac3a-233c217f1626
+osm_id 238040439
+retrieving data from main osm for way 238040439
+[(u'',)]
+changeset_upload 
+{'changeset': 17846154,
+ 'id': 238040439,
+ 'nd': [2459084881L, 2459084883L, 2459084877L, 2459084875L, 2459084881L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T09:32:09Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238040439,
+ 'nd': [2459084881L, 2459084883L, 2459084877L, 2459084875L, 2459084881L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238040439
+[(u'238040439', u'', u'2013-12-08 04:38:09.850000', 19335007)]
+
+ building_count 121
+b9304b4e-866e-44cc-959d-9e02a52906a6
+osm_id 238040447
+retrieving data from main osm for way 238040447
+[(u'',)]
+changeset_upload 
+{'changeset': 17846154,
+ 'id': 238040447,
+ 'nd': [2459084880L,
+        2459084879L,
+        2459084878L,
+        2459084884L,
+        2459084885L,
+        2459084882L,
+        2459084880L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T09:32:10Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238040447,
+ 'nd': [2459084880L,
+        2459084879L,
+        2459084878L,
+        2459084884L,
+        2459084885L,
+        2459084882L,
+        2459084880L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238040447
+[(u'238040447', u'', u'2013-12-08 04:38:11.208000', 19335007)]
+
+ building_count 122
+6ba01cd9-a4b9-4c8d-9b87-4f08e1a15553
+osm_id 237626975
+retrieving data from main osm for way 237626975
+[(u'',)]
+changeset_upload 
+{'changeset': 17846746,
+ 'id': 237626975,
+ 'nd': [2459111527L,
+        2459111526L,
+        2459111519L,
+        2455075072L,
+        2455075081L,
+        2459111529L,
+        2459111531L,
+        2459111530L,
+        2459111533L,
+        2459111532L,
+        2459111527L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T10:05:57Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 237626975,
+ 'nd': [2459111527L,
+        2459111526L,
+        2459111519L,
+        2455075072L,
+        2455075081L,
+        2459111529L,
+        2459111531L,
+        2459111530L,
+        2459111533L,
+        2459111532L,
+        2459111527L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237626975
+[(u'237626975', u'', u'2013-12-08 04:38:12.883000', 19335007)]
+
+ building_count 123
+d9700ef2-fdeb-4863-9e50-77930196c021
+osm_id 234098635
+retrieving data from main osm for way 234098635
+[(u'',)]
+changeset_upload 
+{'changeset': 17409840,
+ 'id': 234098635,
+ 'nd': [2424012251L, 2424012254L, 2424012253L, 2424012250L, 2424012251L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-19T11:46:09Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 234098635,
+ 'nd': [2424012251L, 2424012254L, 2424012253L, 2424012250L, 2424012251L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 234098635
+[(u'234098635', u'', u'2013-12-08 04:38:14.355000', 19335007)]
+
+ building_count 124
+6747c145-9580-4de3-91fe-d8e46969e08a
+osm_id 236702253
+retrieving data from main osm for way 236702253
+[(u'',)]
+changeset_upload 
+{'changeset': 17848006,
+ 'id': 236702253,
+ 'nd': [2446940621L,
+        2446940601L,
+        2459184947L,
+        2459184948L,
+        2459184949L,
+        2446940606L,
+        2446940621L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T11:27:17Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 236702253,
+ 'nd': [2446940621L,
+        2446940601L,
+        2459184947L,
+        2459184948L,
+        2459184949L,
+        2446940606L,
+        2446940621L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 236702253
+[(u'236702253', u'', u'2013-12-08 04:38:15.652000', 19335007)]
+
+ building_count 125
+4da52444-728c-4f72-b5e6-5b74c42febf5
+osm_id 237062743
+retrieving data from main osm for way 237062743
+[(u'',)]
+changeset_upload 
+{'changeset': 17726789,
+ 'id': 237062743,
+ 'nd': [2450167947L, 2450167944L, 2450167939L, 2450167942L, 2450167947L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-08T04:56:06Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237062743,
+ 'nd': [2450167947L, 2450167944L, 2450167939L, 2450167942L, 2450167947L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237062743
+[(u'237062743', u'', u'2013-12-08 04:38:16.889000', 19335007)]
+
+ building_count 126
+9832bc63-f862-4fd5-a6be-af062279c049
+osm_id 197902791
+retrieving data from main osm for way 197902791
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902791,
+ 'nd': [2081009912, 2081009951, 2081009940, 2081009900, 2081009912],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:39Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902791,
+ 'nd': [2081009912, 2081009951, 2081009940, 2081009900, 2081009912],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902791
+[(u'197902791', u'', u'2013-12-08 04:38:18.160000', 19335007)]
+
+ building_count 127
+252a266a-cf15-4316-80b9-d68cb908e96b
+osm_id 197902713
+retrieving data from main osm for way 197902713
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902713,
+ 'nd': [2081009969, 2081009984, 2081009968, 2081009949, 2081009969],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:34Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902713,
+ 'nd': [2081009969, 2081009984, 2081009968, 2081009949, 2081009969],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902713
+[(u'197902713', u'', u'2013-12-08 04:38:19.398000', 19335007)]
+
+ building_count 128
+a88551e1-260f-4f2d-a665-a48af7cd6ece
+osm_id 193090745
+retrieving data from main osm for way 193090745
+[(u'',)]
+changeset_upload 
+{'changeset': 14056999,
+ 'id': 193090745,
+ 'nd': [2036131476,
+        2036131484,
+        2036131506,
+        2036131496,
+        2036131490,
+        2036131486,
+        2036131464,
+        2036131474,
+        2036131476],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-27T10:28:25Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 193090745,
+ 'nd': [2036131476,
+        2036131484,
+        2036131506,
+        2036131496,
+        2036131490,
+        2036131486,
+        2036131464,
+        2036131474,
+        2036131476],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 193090745
+[(u'193090745', u'', u'2013-12-08 04:38:20.679000', 19335007)]
+
+ building_count 129
+573eba50-1a33-4024-9296-2c44113f6926
+osm_id 192183434
+retrieving data from main osm for way 192183434
+[(u'',)]
+changeset_upload 
+{'changeset': 13994993,
+ 'id': 192183434,
+ 'nd': [2027499539, 2027499528, 2027499530, 2027499541, 2027499539],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-23T06:41:49Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192183434,
+ 'nd': [2027499539, 2027499528, 2027499530, 2027499541, 2027499539],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192183434
+[(u'192183434', u'', u'2013-12-08 04:38:22.088000', 19335007)]
+
+ building_count 130
+4d5e4ddd-0e50-4a51-aa7e-cb78831e2b99
+overpass_query [out:json];way["kll:oid"="7-10-06-2"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%227-10-06-2%22%5D%3Bout%20ids%3B
+osm_id 240847481
+retrieving data from main osm for way 240847481
+[(u'',)]
+changeset_upload 
+{'changeset': 19048997,
+ 'id': 240847481,
+ 'nd': [2485368331L, 2485368330L, 2485368328L, 2485368329L, 2485368331L],
+ 'tag': {'building': 'yes', 'kll:oid': '7-10-06-2'},
+ 'timestamp': '2013-11-22T08:43:04Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 240847481,
+ 'nd': [2485368331L, 2485368330L, 2485368328L, 2485368329L, 2485368331L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '7-10-06-2',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240847481
+[(u'240847481', u'7-10-06-2', u'2013-12-08 04:38:24.131000', 19335007)]
+
+ building_count 131
+ac928eef-3c35-4669-b781-7469fd1bbd74
+osm_id 237087473
+retrieving data from main osm for way 237087473
+[(u'',)]
+changeset_upload 
+{'changeset': 17730256,
+ 'id': 237087473,
+ 'nd': [2450380398L,
+        2450380397L,
+        2450380400L,
+        2450380399L,
+        2450380402L,
+        2450380401L,
+        2450380390L,
+        2450380391L,
+        2450380392L,
+        2450380393L,
+        2450380394L,
+        2450380396L,
+        2450380395L,
+        2450380398L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-08T10:37:00Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 237087473,
+ 'nd': [2450380398L,
+        2450380397L,
+        2450380400L,
+        2450380399L,
+        2450380402L,
+        2450380401L,
+        2450380390L,
+        2450380391L,
+        2450380392L,
+        2450380393L,
+        2450380394L,
+        2450380396L,
+        2450380395L,
+        2450380398L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '8',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'engineered_reinforced_concrete',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237087473
+[(u'237087473', u'', u'2013-12-08 04:38:25.481000', 19335007)]
+
+ building_count 132
+3eb94e2c-cd36-49d4-92eb-7ed1da7e5b8e
+osm_id 192049629
+retrieving data from main osm for way 192049629
+[(u'',)]
+changeset_upload 
+{'changeset': 13982712,
+ 'id': 192049629,
+ 'nd': [2026094276, 2026094285, 2026094278, 2026094271, 2026094276],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-11-22T08:49:57Z',
+ 'uid': 781054,
+ 'user': 'Manoj-OSMNepal',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 192049629,
+ 'nd': [2026094276, 2026094285, 2026094278, 2026094271, 2026094276],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192049629
+[(u'192049629', u'', u'2013-12-08 04:38:26.833000', 19335007)]
+
+ building_count 133
+012c16af-9d5f-48ec-9697-0cf2b038a004
+osm_id 192049645
+retrieving data from main osm for way 192049645
+[(u'',)]
+changeset_upload 
+{'changeset': 18216505,
+ 'id': 192049645,
+ 'nd': [2026094309, 2026094304, 2026094282, 2026094296, 2026094309],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-10-06T17:19:49Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 192049645,
+ 'nd': [2026094309, 2026094304, 2026094282, 2026094296, 2026094309],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 192049645
+[(u'192049645', u'', u'2013-12-08 04:38:28.078000', 19335007)]
+
+ building_count 134
+6a217292-9f72-4d7c-918a-103306bd610e
+osm_id 235431744
+retrieving data from main osm for way 235431744
+[(u'',)]
+changeset_upload 
+{'changeset': 17550418,
+ 'id': 235431744,
+ 'nd': [2434944787L, 2434944784L, 2434944781L, 2434944785L, 2434944787L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-08-28T08:39:54Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 235431744,
+ 'nd': [2434944787L, 2434944784L, 2434944781L, 2434944785L, 2434944787L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 235431744
+[(u'235431744', u'', u'2013-12-08 04:38:29.431000', 19335007)]
+
+ building_count 135
+d3fb4ce0-cb1d-4d10-a11b-d80fd88b2e3d
+osm_id 238043783
+retrieving data from main osm for way 238043783
+[(u'',)]
+changeset_upload 
+{'changeset': 17846746,
+ 'id': 238043783,
+ 'nd': [2459111524L, 2459111522L, 2459111514L, 2459111518L, 2459111524L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-09-15T10:05:57Z',
+ 'uid': 1700096,
+ 'user': 'GautamPratik',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 238043783,
+ 'nd': [2459111524L, 2459111522L, 2459111514L, 2459111518L, 2459111524L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 238043783
+[(u'238043783', u'', u'2013-12-08 04:38:30.634000', 19335007)]
+
+ building_count 136
+cbc1a249-c5fe-4d7a-89ca-65d9293b0c7c
+osm_id 198407490
+retrieving data from main osm for way 198407490
+[(u'',)]
+changeset_upload 
+{'changeset': 14434542,
+ 'id': 198407490,
+ 'nd': [2085397210, 2085397211, 2085397209, 2085397208, 2085397210],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-28T06:31:00Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 198407490,
+ 'nd': [2085397210, 2085397211, 2085397209, 2085397208, 2085397210],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 198407490
+[(u'198407490', u'', u'2013-12-08 04:38:31.960000', 19335007)]
+
+ building_count 137
+32737060-828d-4320-9445-e9f7433c1837
+osm_id 237626987
+retrieving data from main osm for way 237626987
+[(u'',)]
+changeset_upload 
+{'changeset': 19049713,
+ 'id': 237626987,
+ 'nd': [2455075161L, 2455075130L, 2455075144L, 2455075165L, 2455075161L],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2013-11-22T09:31:50Z',
+ 'uid': 750985,
+ 'user': 'Poshan',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 237626987,
+ 'nd': [2455075161L, 2455075130L, 2455075144L, 2455075165L, 2455075161L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 237626987
+[(u'237626987', u'', u'2013-12-08 04:38:33.254000', 19335007)]
+
+ building_count 138
+33388362-3864-48cb-8ab5-730f60d2d784
+osm_id 198407496
+retrieving data from main osm for way 198407496
+[(u'',)]
+changeset_upload 
+{'changeset': 14434542,
+ 'id': 198407496,
+ 'nd': [2085397219, 2085397224, 2085397221, 2085397218, 2085397219],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-28T06:31:00Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 198407496,
+ 'nd': [2085397219, 2085397224, 2085397221, 2085397218, 2085397219],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 198407496
+[(u'198407496', u'', u'2013-12-08 04:38:34.517000', 19335007)]
+
+ building_count 139
+69e6719b-468b-48e4-8abd-46fb91e32cb1
+osm_id 198407539
+retrieving data from main osm for way 198407539
+[(u'',)]
+changeset_upload 
+{'changeset': 14434542,
+ 'id': 198407539,
+ 'nd': [2085397223, 2085397225, 2085397222, 2085397220, 2085397223],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-28T06:31:03Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 198407539,
+ 'nd': [2085397223, 2085397225, 2085397222, 2085397220, 2085397223],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 198407539
+[(u'198407539', u'', u'2013-12-08 04:38:36.210000', 19335007)]
+
+ building_count 140
+1c6440e0-6dea-4d30-b816-acf87279fe40
+overpass_query [out:json];way["kll:oid"="4-10-06-7"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-7%22%5D%3Bout%20ids%3B
+osm_id 241232074
+retrieving data from main osm for way 241232074
+[(u'',)]
+changeset_upload 
+{'changeset': 18690526,
+ 'id': 241232074,
+ 'nd': [2451418000L, 2451417998L, 2489269068L, 2489269071L, 2451418000L],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-7'},
+ 'timestamp': '2013-11-03T10:51:00Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 241232074,
+ 'nd': [2451418000L, 2451417998L, 2489269068L, 2489269071L, 2451418000L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'yes',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '4-10-06-7',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 241232074
+[(u'241232074', u'4-10-06-7', u'2013-12-08 04:38:38.137000', 19335007)]
+
+ building_count 141
+93ad2917-1475-4cd8-b52e-716e826d2263
+overpass_query [out:json];way["kll:oid"="4-10-06-3"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-3%22%5D%3Bout%20ids%3B
+osm_id 240812508
+retrieving data from main osm for way 240812508
+[(u'',)]
+changeset_upload 
+{'changeset': 18690526,
+ 'id': 240812508,
+ 'nd': [2002377743, 2485036015L, 2485036013L, 2485036009L, 2002377743],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-3'},
+ 'timestamp': '2013-11-03T10:50:58Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 240812508,
+ 'nd': [2002377743, 2485036015L, 2485036013L, 2485036009L, 2002377743],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_mud_mortar',
+         'building:use': 'commercial',
+         'floor:material:type': 'flexible',
+         'kll:oid': '4-10-06-3',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240812508
+[(u'240812508', u'4-10-06-3', u'2013-12-08 04:38:40.237000', 19335007)]
+
+ building_count 142
+7624e59e-6273-4fc3-b34f-92986156a68f
+overpass_query [out:json];way["kll:oid"="4-10-06-6"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-6%22%5D%3Bout%20ids%3B
+osm_id 241232075
+retrieving data from main osm for way 241232075
+[(u'',)]
+changeset_upload 
+{'changeset': 18690526,
+ 'id': 241232075,
+ 'nd': [2445625957L, 2489269074L, 2489269076L, 2489269073L, 2445625957L],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-6'},
+ 'timestamp': '2013-11-03T10:51:00Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 241232075,
+ 'nd': [2445625957L, 2489269074L, 2489269076L, 2489269073L, 2445625957L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '4',
+         'building:overhang': 'no',
+         'building:soft_storey': 'yes',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '4-10-06-6',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 241232075
+[(u'241232075', u'4-10-06-6', u'2013-12-08 04:38:42.173000', 19335007)]
+
+ building_count 143
+feb4dfd5-696e-42f8-ac49-51fe0626affc
+overpass_query [out:json];way["kll:oid"="4-10-06-7"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-7%22%5D%3Bout%20ids%3B
+osm_id 241232074
+retrieving data from main osm for way 241232074
+[(19335007,)]
+changeset_upload 19335007
+already Uploaded 241232074
+
+ building_count 144
+e8b3048c-1b82-4acf-a16d-e4b4c472d225
+overpass_query [out:json];way["kll:oid"="4-10-06-2"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-2%22%5D%3Bout%20ids%3B
+osm_id 240812509
+retrieving data from main osm for way 240812509
+[(u'',)]
+changeset_upload 
+{'changeset': 19050198,
+ 'id': 240812509,
+ 'nd': [2485036031L,
+        2485036019L,
+        2485036017L,
+        2485036025L,
+        2485036027L,
+        2485036029L,
+        2485036031L],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-2'},
+ 'timestamp': '2013-11-22T10:09:50Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 240812509,
+ 'nd': [2485036031L,
+        2485036019L,
+        2485036017L,
+        2485036025L,
+        2485036027L,
+        2485036029L,
+        2485036031L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '4-10-06-2',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240812509
+[(u'240812509', u'4-10-06-2', u'2013-12-08 04:38:44.543000', 19335007)]
+
+ building_count 145
+62a32136-17bc-4e0a-973e-3005f769262d
+overpass_query [out:json];way["kll:oid"="4-10-06-4"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-4%22%5D%3Bout%20ids%3B
+osm_id 241104458
+retrieving data from main osm for way 241104458
+[(u'',)]
+changeset_upload 
+{'changeset': 18690526,
+ 'id': 241104458,
+ 'nd': [2487994126L, 2487994125L, 2487994121L, 2487994122L, 2487994126L],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-4'},
+ 'timestamp': '2013-11-03T10:50:59Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 241104458,
+ 'nd': [2487994126L, 2487994125L, 2487994121L, 2487994122L, 2487994126L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'non_engineered_reinforced_concrete',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '4-10-06-4',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 241104458
+[(u'241104458', u'4-10-06-4', u'2013-12-08 04:38:46.474000', 19335007)]
+
+ building_count 146
+503d3fd7-4072-4f7c-b692-e23389445673
+overpass_query [out:json];way["kll:oid"="4-10-06-1"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%224-10-06-1%22%5D%3Bout%20ids%3B
+osm_id 240812507
+retrieving data from main osm for way 240812507
+[(u'',)]
+changeset_upload 
+{'changeset': 18594838,
+ 'id': 240812507,
+ 'nd': [2485036041L, 2485036039L, 2485036035L, 2485036037L, 2485036041L],
+ 'tag': {'building': 'yes', 'kll:oid': '4-10-06-1'},
+ 'timestamp': '2013-10-29T02:04:28Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 240812507,
+ 'nd': [2485036041L, 2485036039L, 2485036035L, 2485036037L, 2485036041L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '1',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'commercial',
+         'kll:oid': '4-10-06-1',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240812507
+[(u'240812507', u'4-10-06-1', u'2013-12-08 04:38:48.310000', 19335007)]
+
+ building_count 147
+f629f61d-c464-4dd0-bbd8-e14466083cde
+overpass_query [out:json];way["kll:oid"="7-10-06-1"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%227-10-06-1%22%5D%3Bout%20ids%3B
+osm_id 240844453
+retrieving data from main osm for way 240844453
+[(u'',)]
+changeset_upload 
+{'changeset': 19048997,
+ 'id': 240844453,
+ 'nd': [2485352367L,
+        2485352365L,
+        2485352359L,
+        2485352360L,
+        2485352351L,
+        2485352354L,
+        2485352356L,
+        2485352362L,
+        2485352367L],
+ 'tag': {'building': 'yes', 'kll:oid': '7-10-06-1'},
+ 'timestamp': '2013-11-22T08:43:04Z',
+ 'uid': 680067,
+ 'user': 'amritkarma',
+ 'version': 2}
+{'changeset': 19335007,
+ 'id': 240844453,
+ 'nd': [2485352367L,
+        2485352365L,
+        2485352359L,
+        2485352360L,
+        2485352351L,
+        2485352354L,
+        2485352356L,
+        2485352362L,
+        2485352367L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '3',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '7-10-06-1',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular'},
+ 'version': 3}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240844453
+[(u'240844453', u'7-10-06-1', u'2013-12-08 04:38:50.143000', 19335007)]
+
+ building_count 148
+ea3cf4c3-e462-4565-9199-2be844a318a2
+overpass_query [out:json];way["kll:oid"="6-10-06-2"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%226-10-06-2%22%5D%3Bout%20ids%3B
+osm_id 247575567
+retrieving data from main osm for way 247575567
+[(u'',)]
+changeset_upload 
+{'changeset': 19049713,
+ 'id': 247575567,
+ 'nd': [2544628412L,
+        2544628411L,
+        2544628407L,
+        2544628405L,
+        2544628409L,
+        2544628412L],
+ 'tag': {'building': 'yes', 'kll:oid': '6-10-06-2'},
+ 'timestamp': '2013-11-22T09:31:50Z',
+ 'uid': 750985,
+ 'user': 'Poshan',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 247575567,
+ 'nd': [2544628412L,
+        2544628411L,
+        2544628407L,
+        2544628405L,
+        2544628409L,
+        2544628412L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'kll:oid': '6-10-06-2',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'narrow_tall',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 247575567
+[(u'247575567', u'6-10-06-2', u'2013-12-08 04:38:52.057000', 19335007)]
+
+ building_count 149
+81fd0ccb-03b6-4df2-8421-66993c50a38a
+overpass_query [out:json];way["kll:oid"="6-10-06-1"];out ids;
+overpass_request http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%3Bway%5B%22kll%3Aoid%22%3D%226-10-06-1%22%5D%3Bout%20ids%3B
+osm_id 240942858
+retrieving data from main osm for way 240942858
+[(u'',)]
+changeset_upload 
+{'changeset': 19086902,
+ 'id': 240942858,
+ 'nd': [2455075144L, 2455075130L, 2486277090L, 2486277092L, 2455075144L],
+ 'tag': {'building': 'yes', 'kll:oid': '6-10-06-1'},
+ 'timestamp': '2013-11-24T08:49:50Z',
+ 'uid': 750985,
+ 'user': 'Poshan',
+ 'version': 3}
+{'changeset': 19335007,
+ 'id': 240942858,
+ 'nd': [2455075144L, 2455075130L, 2486277090L, 2486277092L, 2455075144L],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'yes',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'flexible',
+         'kll:oid': '6-10-06-1',
+         'roof:material:type': 'flexible',
+         'shape:elevation': 'regular',
+         'shape:plan': 'regular'},
+ 'version': 4}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 240942858
+[(u'240942858', u'6-10-06-1', u'2013-12-08 04:38:53.976000', 19335007)]
+
+ building_count 150
+11110e24-4a51-4f68-9be6-5cf8fb436995
+osm_id 197902838
+retrieving data from main osm for way 197902838
+[(u'',)]
+changeset_upload 
+{'changeset': 14388751,
+ 'id': 197902838,
+ 'nd': [2081009995, 2081010014, 2081010009, 2081009986, 2081009995],
+ 'tag': {'building': 'yes'},
+ 'timestamp': '2012-12-24T11:10:43Z',
+ 'uid': 1068220,
+ 'user': 'Helina',
+ 'version': 1}
+{'changeset': 19335007,
+ 'id': 197902838,
+ 'nd': [2081009995, 2081010014, 2081010009, 2081009986, 2081009995],
+ 'tag': {'building': 'yes',
+         'building:adjacency': 'no',
+         'building:gable_wall': 'no',
+         'building:levels': '2',
+         'building:overhang': 'no',
+         'building:soft_storey': 'no',
+         'building:structure': 'load_bearing_brick_wall_in_cement_mortar',
+         'building:use': 'residential',
+         'floor:material:type': 'rigid',
+         'roof:material:type': 'rigid',
+         'shape:elevation': 'irregular',
+         'shape:plan': 'regular'},
+ 'version': 2}
+SELECT osmid,id_from_field,upload_date,changeset FROM psuedonumber WHERE osmid = 197902838
+[(u'197902838', u'', u'2013-12-08 04:38:55.361000', 19335007)]
+
+
+No of buildings 151
+surveyors_error {}
+new_building 13
+new_building_not_found []
+new_building_not_found no 0
+
+
+***Repl Closed***

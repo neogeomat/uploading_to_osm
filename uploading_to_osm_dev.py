@@ -10,7 +10,7 @@ import datetime
 
 print 'python version=',sys.version
 
-form = "fullexposure_form_new_oct_7"
+form = "fullexposure_form_new_oct_29"
 print form
 check_db_update = raw_input("Have you updated the main pseudonumber database \n to include the newly digitized buildings as well?(y/n)")
 check_josm_running = raw_input("Is Josm on with new emprty layer and remote control enabled?(y/n)")
@@ -31,7 +31,6 @@ def start_upload():
     print("Getting data from internet")
 
     ## insert form here
-    form = "fullexposure_form_new"
 
     formhub_request = urllib2.Request('https://formhub.org/nirabpudasaini/forms/'+form+'/api')
     try:
