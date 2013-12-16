@@ -274,7 +274,7 @@ def start_upload():
                         # shape in plan
                         if(building["building_shape_plan"] == "building_shape_plan_r"):
                             new_data['tag']['shape:plan'] = "regular"
-                        elif(building["building_shape_plan"] == "building_shape_plan_r"):
+                        elif(building["building_shape_plan"] == "building_shape_plan_ir"):
                             new_data['tag']['shape:plan'] = "irregular"
 
                         # shape in elevation
