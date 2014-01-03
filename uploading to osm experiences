@@ -123,6 +123,8 @@ in form fullexposure_form_new_oct_7,
 	building id 237969116, duplicate deleted
 	building id 238050870, duplicate deleted
 	building id 238149783, duplicate deleted
+	building id 203448218, duplicate deleted
+	building id 238047444, duplicate deleted
 	building id 7 - 10 - 07 - 4, marked as existing building, corrected
 	building id 238063221, marked as new building, corrected
 	building id 238153196, marked as new building, corrected
@@ -167,7 +169,33 @@ in form fullexposure_form_new_oct_7,
 	building id 23796346, error in id by melanie, changed to 237967346
 	building id 23850876, error in id by manoj, changed to 238050876
 	building id 26702234, error in id by poshan, changed to 236702234
-	building id 193295094, error in id by manoj, changed to 193295115	
+	building id 193295094, error in id by manoj, changed to 193295115
+	building id 237648065, error in id by manoj, changed to 237648069
+	building id 238143819, error in id by sazal, changed to 238143891
+	building id 198133209, error in id by sazal, changed to 198133309
+	building id 203565060, error in id by pratik, changed to 203565050
+	building id 237202215, error in id by pratik, changed to 237207215
+	building id 203165111, error in id by pratik, changed to 203695111
+	building id 198011639, error in id by pratik, changed to 198011638
+	building id 237321138, error in id by pratik, changed to 237321938
+	building id 230153200, error in id by pratik, changed to 238153200
+	building id 203865154, error in id by pratik, changed to 203565154
+	building id 237209129, error in id by pratik, changed to 237209123
+	building id 237688766, error in id by pratik, changed to 237668766
+	building id 204324753, error in id by pratik, changed to 204342753
+	building id 237673313, error in id by pratik, changed to 237673713
+	building id 204322638, error in id by pratik, changed to 204342638
+	building id 204242683, error in id by pratik, changed to 204342683
+	building id 189725572, error in id by melanie, changed to 198725572
+	building id 238035552, error in id by melanie, changed to 238035522
+	building id 190121583, error in id by melanie, changed to 198121583
+	building id 327665550, error in id by melanie, changed to 237665553
+	building id 198121155, error in id by amrit, changed to 198121555	
+	building id 238170718, error in id by amrit, changed to 238170710
+	building id 238058973, error in id by amrit, changed to 238058673	
+	building id 237674093, error in id by amrit, changed to 237671093
+	building id 237023314, error in id by amrit, changed to 237203314
+	building id 237676722, error in id by amrit, changed to 237673722
 	building id 4-10-24-24, duplicated by sazal, delete
 	building id 4-10-24-25, duplicated by sazal, delete
 	building id 4-10-24-6, tag error, corrected
