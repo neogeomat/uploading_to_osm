@@ -31,6 +31,14 @@ in form fullexposure_form_new_oct_27,
 	building id 426-77 added
 	building id 426-79 added
 	building id 236702269 duplicated, deleted
+	building id 189407542, error in id by melanie, changed to 198407542
+	building id 237506764, error in id by melanie, changed to 237506674
+	building id 199018415, error in id by melanie, changed to 199010415
+	building id 237657867, error in id by melanie, changed to 237657860
+	building id 237600093, error in id by melanie, changed to 237660093
+	building id 237565178, error in id by melanie, changed to 237656178
+	building id 237657489, error in id by melanie, changed to 237657849
+	building id 237506995, error in id by pratik, changed to 237506695
 
 in form fullexposure_form_new_oct_29,
 	building id ktm - kmc - 4 - 4785, district data missing
@@ -57,7 +65,6 @@ in form fullexposure_form_new_oct_29,
 	building id 4016 - 7, tag missing
 	building id 4018 - 40, building missing
 	building id 4016 - 2, tag missing
-	building
 	building id 3024 - 4, tag missing id 4016 - 3, tag missing
 	building id ktm - kmc - 4 - 4335, building in formhub and osm mismatch, 
 	building id ktm - kmc - 4 - 202, building of clinic, already done in school survey, deleted
